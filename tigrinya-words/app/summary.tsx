@@ -32,7 +32,7 @@ export default function Summary() {
             params: { unitId: String(finished[0]), next: finished.slice(1).join(',') },
           })} />
         : null}
-      <Button kind={units.length ? 'secondary' : 'primary'} label="Back to Home" onPress={() => router.replace('/')} />
+      <Button kind={units.length ? 'secondary' : 'primary'} label="Back to Home" onPress={() => router.dismissTo('/')} />
     </Screen>
   );
 }

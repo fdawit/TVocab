@@ -9,10 +9,15 @@ import { WORDS, UNITS, WORD_BY_ID } from '../src/lib/data';
 import { applyAnswer, buildSession, currentUnit, finishSession, requeue } from '../src/lib/session';
 import { shortMeaning } from '../src/lib/exercises';
 import { dayString } from '../src/lib/scheduler';
+import { romanization } from '../src/lib/romanization';
 import { loadState, saveState } from '../src/lib/storage';
 import type { AppState, Exercise, Word } from '../src/lib/types';
 
 const PRAISE = ['ጽቡቕ!', 'ብሉጽ!', 'ልክዕ!'];   // Good! Excellent! Exactly!
+
+// Ge'ez answer buttons show the romanization of the word they spell.
+const ACTIVE_BY_GEEZ = new Map<string, Word>();
+for (const w of WORDS) if (w.active && !ACTIVE_BY_GEEZ.has(w.word)) ACTIVE_BY_GEEZ.set(w.word, w);
 
 type Feedback = { correct: boolean; picked?: string };
 
@@ -25,6 +30,7 @@ export default function Session() {
   const [index, setIndex] = useState(0);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [placed, setPlaced] = useState<number[]>([]);   // build: indexes into ex.tiles, in tap order
+  const [showSounds, setShowSounds] = useState(false);  // "Show sounds" tapped on this step
   const tally = useRef({ correct: 0, graded: 0, met: 0, praise: 0 });
 
   // On open: load progress and build the whole day's session.
@@ -46,7 +52,7 @@ export default function Session() {
       <Screen>
         <Geez bold style={styles.big}>ጽቡቕ!</Geez>
         <Text style={styles.center}>All done for today!</Text>
-        <Button label="Back to Home" onPress={() => router.replace('/')} />
+        <Button label="Back to Home" onPress={() => router.dismissTo('/')} />
       </Screen>
     );
   }
@@ -77,6 +83,7 @@ export default function Session() {
   async function next(list: Exercise[]) {
     setFeedback(null);
     setPlaced([]);
+    setShowSounds(false);
     if (index + 1 < list.length) {
       setIndex(index + 1);
       return;
@@ -103,6 +110,36 @@ export default function Session() {
   }
 
   const geezOptions = ex.kind !== 'recognize';
+
+  // Romanization fade (Step 9b): shown while a word is in boxes 0-3 (Auto mode), then behind "Show sounds".
+  const settings = stateRef.current!.settings;
+  const boxOf = (w: Word) => stateRef.current!.progress[w.id]?.box ?? 0;
+  const romFor = (w: Word | undefined, text: string | undefined) =>
+    w && text && (showSounds || romanization(settings.romanization, boxOf(w)) === 'show') ? text : undefined;
+  const hiddenFor = (w: Word | undefined) => !!w && !showSounds && romanization(settings.romanization, boxOf(w)) === 'tap';
+  // The read exercise never romanizes its Ge'ez buttons: reading them is the point.
+  const romanizeOptions = ex.kind === 'recall' || ex.kind === 'cloze';
+  const optionSub = (o: string) => {
+    if (!romanizeOptions) return undefined;
+    const w = ACTIVE_BY_GEEZ.get(o);
+    return romFor(w, w?.pron);
+  };
+  // Build tiles line up word for word with the romanized example.
+  const tileRom = (tile: string) => {
+    if (ex.kind !== 'build') return undefined;
+    const k = ex.answerTiles!.indexOf(tile);
+    return romFor(word, (word.exRom ?? '').split(' ').filter(Boolean)[k]);
+  };
+  const canShowSounds =
+    ex.kind === 'recognize' ? hiddenFor(word)
+    : romanizeOptions ? ex.options!.some(o => hiddenFor(ACTIVE_BY_GEEZ.get(o)))
+    : ex.kind === 'build' ? hiddenFor(word) && !!word.exRom
+    : false;
+  const showSoundsButton = canShowSounds && (
+    <Pressable onPress={() => setShowSounds(true)} accessibilityRole="button" style={styles.soundsButton}>
+      <Text style={styles.soundsText}>Show sounds</Text>
+    </Pressable>
+  );
   const optionState = (o: string): ChoiceState => {
     if (!feedback) return 'idle';
     if (o === ex.answer) return 'correct';
@@ -129,10 +166,11 @@ export default function Session() {
 
       {ex.options && (
         <>
-          <Prompt ex={ex} />
+          <Prompt ex={ex} sub={ex.kind === 'recognize' ? romFor(word, ex.promptSub) : ex.promptSub} />
+          {showSoundsButton}
           <View style={styles.options}>
             {ex.options.map(o => (
-              <ChoiceButton key={o} label={o} geez={geezOptions} state={optionState(o)}
+              <ChoiceButton key={o} label={o} sub={optionSub(o)} geez={geezOptions} state={optionState(o)}
                             disabled={!!feedback} onPress={() => answer(o === ex.answer, o)} />
             ))}
           </View>
@@ -143,13 +181,17 @@ export default function Session() {
         <>
           <Text style={styles.instruction}>Put the words in order</Text>
           <Text style={styles.promptEn}>{ex.prompt}</Text>
+          {showSoundsButton}
           <View style={[styles.answerLine, feedback && { borderColor: feedback.correct ? colors.correct : colors.wrong }]}>
-            {placed.map(i => <Tile key={i} label={ex.tiles![i]} onPress={() => tapTile(i)} />)}
+            {placed.map(i => <Tile key={i} label={ex.tiles![i]} sub={tileRom(ex.tiles![i])} onPress={() => tapTile(i)} />)}
           </View>
           <View style={styles.bank}>
             {ex.tiles.map((t, i) => placed.includes(i)
-              ? <View key={i} style={[styles.tile, styles.tileGhost]}><Geez style={[styles.tileText, { opacity: 0 }]}>{t}</Geez></View>
-              : <Tile key={i} label={t} onPress={() => tapTile(i)} />)}
+              ? <View key={i} style={[styles.tile, styles.tileGhost]}>
+                  <Geez style={[styles.tileText, { opacity: 0 }]}>{t}</Geez>
+                  {!!tileRom(t) && <Text style={[styles.tileSub, { opacity: 0 }]}>{tileRom(t)}</Text>}
+                </View>
+              : <Tile key={i} label={t} sub={tileRom(t)} onPress={() => tapTile(i)} />)}
           </View>
           {feedback && !feedback.correct && (
             <Geez style={[styles.solution]}>{ex.answerTiles!.join(' ')}</Geez>
@@ -177,14 +219,14 @@ export default function Session() {
 }
 
 /** The big line at the top of a multiple-choice exercise. */
-function Prompt({ ex }: { ex: Exercise }) {
+function Prompt({ ex, sub }: { ex: Exercise; sub?: string }) {
   switch (ex.kind) {
     case 'recognize':
       return (
         <View style={styles.prompt}>
           <Text style={styles.instruction}>What does this mean?</Text>
           <Geez bold style={styles.big}>{ex.prompt}</Geez>
-          {ex.promptSub && <Text style={styles.sub}>{ex.promptSub}</Text>}
+          {!!sub && <Text style={styles.sub}>{sub}</Text>}
         </View>
       );
     case 'read':
@@ -206,7 +248,7 @@ function Prompt({ ex }: { ex: Exercise }) {
         <View style={styles.prompt}>
           <Text style={styles.instruction}>Which word fills the gap?</Text>
           <Geez style={styles.sentence}>{ex.prompt}</Geez>
-          {ex.promptSub && <Text style={styles.promptEn}>{ex.promptSub}</Text>}
+          {!!sub && <Text style={styles.promptEn}>{sub}</Text>}
         </View>
       );
     default:
@@ -214,11 +256,12 @@ function Prompt({ ex }: { ex: Exercise }) {
   }
 }
 
-function Tile({ label, onPress }: { label: string; onPress: () => void }) {
+function Tile({ label, sub, onPress }: { label: string; sub?: string; onPress: () => void }) {
   return (
     <Pressable onPress={onPress} accessibilityRole="button" accessibilityLabel={label}
                style={({ pressed }) => [styles.tile, pressed && { opacity: 0.7 }]}>
       <Geez style={styles.tileText}>{label}</Geez>
+      {!!sub && <Text style={styles.tileSub}>{sub}</Text>}
     </Pressable>
   );
 }
@@ -247,6 +290,9 @@ const styles = StyleSheet.create({
   },
   tileGhost: { backgroundColor: colors.line, borderColor: colors.line },
   tileText: { fontSize: 24, lineHeight: 36, color: colors.text },
+  tileSub: { fontSize: 14, color: colors.muted },
+  soundsButton: { alignSelf: 'center', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 16, borderWidth: 1, borderColor: colors.line },
+  soundsText: { fontSize: 15, color: colors.primary },
   solution: { fontSize: 24, lineHeight: 36, color: colors.correct, textAlign: 'center' },
   feedback: { borderRadius: 18, padding: 16, gap: 8 },
   feedbackTitle: { fontSize: 18, fontWeight: '700' },

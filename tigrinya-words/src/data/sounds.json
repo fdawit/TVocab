@@ -1,0 +1,178 @@
+[
+ {
+  "section": "Vowels",
+  "symbol": "a",
+  "sayLike": "'a' in father",
+  "letters": "ኣ ባ ማ",
+  "example": "ማይ — may",
+  "exampleMeaning": "water"
+ },
+ {
+  "section": "Vowels",
+  "symbol": "e",
+  "sayLike": "'e' in bed",
+  "letters": "ሰ ቤ ከ",
+  "example": "ሰላም — se-lam",
+  "exampleMeaning": "hello; peace"
+ },
+ {
+  "section": "Vowels",
+  "symbol": "i",
+  "sayLike": "'i' in sit (often short and light)",
+  "letters": "ኢ ብ ሚ",
+  "example": "ሕጂ — hi-ji",
+  "exampleMeaning": "now"
+ },
+ {
+  "section": "Vowels",
+  "symbol": "o",
+  "sayLike": "'o' in go",
+  "letters": "ኦ ሎ ቦ",
+  "example": "ሎሚ — lo-mi",
+  "exampleMeaning": "today"
+ },
+ {
+  "section": "Vowels",
+  "symbol": "u",
+  "sayLike": "'oo' in food",
+  "letters": "ኡ ሱ ቡ",
+  "example": "ንሱ — ni-su",
+  "exampleMeaning": "he"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "t'",
+  "sayLike": "'t' with a pop: hold your breath, then let the t burst out",
+  "letters": "ጠ ጥ ጣ",
+  "example": "ጥራይ — t'i-ray",
+  "exampleMeaning": "only"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "ts'",
+  "sayLike": "'ts' (as in cats) with a pop",
+  "letters": "ጸ ጽ ጻ",
+  "example": "ጽቡቕ — ts'i-buq",
+  "exampleMeaning": "good"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "ch'",
+  "sayLike": "'ch' with a pop",
+  "letters": "ጨ ጭ ጫ",
+  "example": "ጫማ — ch'am-ma",
+  "exampleMeaning": "shoes"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "p'",
+  "sayLike": "'p' with a pop",
+  "letters": "ጰ ጵ",
+  "example": "ኢትዮጵያ — it-yo-p'i-ya",
+  "exampleMeaning": "Ethiopia"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "q",
+  "sayLike": "a deep 'k' made at the very back of the throat",
+  "letters": "ቀ ቐ ቕ ቑ",
+  "example": "ቀይሕ — qe-yih",
+  "exampleMeaning": "red"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "kh",
+  "sayLike": "a soft, breathy throat sound, like the end of 'Bach'",
+  "letters": "ኸ ኽ ኻ",
+  "example": "ኣምላኽ — am-lakh",
+  "exampleMeaning": "God"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "h",
+  "sayLike": "'h' — ሐ/ሓ is a stronger, raspier h than ሀ/ሃ",
+  "letters": "ሀ ሃ ሐ ሓ",
+  "example": "ሓደ — ha-de",
+  "exampleMeaning": "one"
+ },
+ {
+  "section": "Sounds English Doesn't Have",
+  "symbol": "' (in the middle)",
+  "sayLike": "a tiny catch in the throat, like the break in 'uh-oh'",
+  "letters": "እ ዕ ዓ",
+  "example": "ማእከል — ma'-kel",
+  "exampleMeaning": "center"
+ },
+ {
+  "section": "Familiar Sounds",
+  "symbol": "ch",
+  "sayLike": "'ch' in church",
+  "letters": "ቸ ቹ",
+  "example": "ቸልሲ — chel-si",
+  "exampleMeaning": "Chelsea"
+ },
+ {
+  "section": "Familiar Sounds",
+  "symbol": "sh",
+  "sayLike": "'sh' in ship",
+  "letters": "ሸ ሽ",
+  "example": "ሽሕ — shih",
+  "exampleMeaning": "thousand"
+ },
+ {
+  "section": "Familiar Sounds",
+  "symbol": "j",
+  "sayLike": "'j' in jam",
+  "letters": "ጀ ጅ",
+  "example": "ጀመረ — je-me-re",
+  "exampleMeaning": "he started"
+ },
+ {
+  "section": "Familiar Sounds",
+  "symbol": "ny",
+  "sayLike": "'ny' in canyon",
+  "letters": "ኘ ኛ",
+  "example": "ትግርኛ — tig-ri-nya",
+  "exampleMeaning": "Tigrinya"
+ },
+ {
+  "section": "Familiar Sounds",
+  "symbol": "gw / kw / qw",
+  "sayLike": "round your lips for a little 'w'",
+  "letters": "ጓ ኳ ቋ",
+  "example": "ቋንቋ — qwan-qwa",
+  "exampleMeaning": "language"
+ },
+ {
+  "section": "Reading Tips",
+  "symbol": "Hyphens",
+  "sayLike": "Separate syllables. Say each part clearly and evenly.",
+  "letters": "",
+  "example": "ትምህርቲ — tim-hir-ti",
+  "exampleMeaning": "education"
+ },
+ {
+  "section": "Reading Tips",
+  "symbol": "Double letters",
+  "sayLike": "Hold the sound a little longer.",
+  "letters": "",
+  "example": "ኩሉ — kul-lu",
+  "exampleMeaning": "all"
+ },
+ {
+  "section": "Reading Tips",
+  "symbol": "k → kh",
+  "sayLike": "After a vowel, k often softens to kh, and the spelling can change too.",
+  "letters": "ከ → ኸ",
+  "example": "ከም → ኸም",
+  "exampleMeaning": "like, as"
+ },
+ {
+  "section": "Reading Tips",
+  "symbol": "Apostrophes in examples",
+  "sayLike": "In example sentences, a word like izi'yu shows a contraction, the same as in the Tigrinya (እዚ'ዩ).",
+  "letters": "",
+  "example": "እዚ'ዩ — izi'yu",
+  "exampleMeaning": "this is it"
+ }
+]

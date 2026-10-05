@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { Screen, Button, ProgressBar, colors } from '../src/components/Screen';
@@ -7,9 +7,17 @@ import { WORDS, UNITS } from '../src/lib/data';
 import { buildSession, currentUnit } from '../src/lib/session';
 import { dayString } from '../src/lib/scheduler';
 import { useAppState } from '../src/lib/useAppState';
+import { soundsSeen } from '../src/lib/storage';
+import { pendingHomeCards } from '../src/lib/parent';
 
 export default function Home() {
   const { state } = useAppState();
+
+  // First launch: the sound lesson comes before Unit 1 (Step 9a).
+  useEffect(() => {
+    if (!state || Object.keys(state.progress).length > 0) return;
+    soundsSeen().then(seen => { if (!seen) router.replace({ pathname: '/sounds', params: { first: '1' } }); });
+  }, [state]);
 
   // Today's counts, from the same builder the session uses.
   const today = useMemo(() => {
@@ -21,6 +29,7 @@ export default function Home() {
 
   if (!state || !today) return <Screen back={false}><View /></Screen>;
   const unit = currentUnit(UNITS, state);
+  const pending = pendingHomeCards(state);
   const levels = ([1, 2, 3] as const).map(level => {
     const inLevel = WORDS.filter(w => w.active && w.level === level);
     const started = inLevel.filter(w => state.progress[w.id]).length;
@@ -31,6 +40,14 @@ export default function Home() {
     <Screen back={false}>
       <Geez bold style={styles.hello}>ሰላም!</Geez>
       <Text style={styles.streak}>🔥 {state.streak.count} day{state.streak.count === 1 ? '' : 's'} in a row</Text>
+
+      {pending.length > 0 && (
+        <Pressable accessibilityRole="button" style={styles.badge}
+                   onPress={() => router.push({ pathname: '/home-card/[unitId]',
+                                               params: { unitId: String(pending[0]), next: pending.slice(1).join(',') } })}>
+          <Text style={styles.badgeText}>🏠 Say it at home ({pending.length})</Text>
+        </Pressable>
+      )}
 
       <View style={styles.card}>
         <Text style={styles.label}>Current unit</Text>
@@ -70,6 +87,8 @@ const styles = StyleSheet.create({
   counts: { fontSize: 17, color: colors.muted, textAlign: 'center' },
   levelText: { fontSize: 16, color: colors.text },
   links: { gap: 12 },
+  badge: { backgroundColor: '#FEF3C7', borderRadius: 14, minHeight: 56, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: colors.star },
+  badgeText: { fontSize: 19, fontWeight: '700', color: '#92400E' },
   parent: { alignSelf: 'center', padding: 12 },
   parentText: { fontSize: 16, color: colors.muted, textDecorationLine: 'underline' },
 });

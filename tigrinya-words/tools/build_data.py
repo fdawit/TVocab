@@ -155,6 +155,15 @@ def main():
     assert len(placed) == len(set(placed)) == len(active), (len(placed), len(set(placed)), len(active))
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    # 6) The sound lesson, straight from the Pronunciation Guide tab.
+    sounds, section = [], None
+    for r in load_workbook(XLSX, read_only=True)['Pronunciation Guide'].iter_rows(min_row=5, values_only=True):
+        if r[0] and not r[1]:
+            section = ' '.join(part.capitalize() for part in r[0].split())
+        elif r[0]:
+            sounds.append({'section': section, 'symbol': r[0], 'sayLike': r[1],
+                           'letters': r[2] or '', 'example': r[3] or '', 'exampleMeaning': r[4] or ''})
+    (OUT_DIR / 'sounds.json').write_text(json.dumps(sounds, ensure_ascii=False, indent=1), encoding='utf-8')
     (OUT_DIR / 'words.json').write_text(json.dumps(words, ensure_ascii=False, indent=1), encoding='utf-8')
     (OUT_DIR / 'units.json').write_text(json.dumps(units, ensure_ascii=False, indent=1), encoding='utf-8')
 

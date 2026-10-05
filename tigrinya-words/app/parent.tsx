@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import { Alert, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
-import { Screen, Button, colors } from '../src/components/Screen';
+import { Screen, Button, ProgressBar, colors } from '../src/components/Screen';
+import { Geez } from '../src/components/Geez';
+import { WORDS, UNITS } from '../src/lib/data';
+import { levelStats, needsPractice, wordsThisWeek } from '../src/lib/parent';
+import { dayString } from '../src/lib/scheduler';
+import type { Word } from '../src/lib/types';
 import { useAppState } from '../src/lib/useAppState';
 import { resetState } from '../src/lib/storage';
 import type { Settings } from '../src/lib/types';
@@ -33,7 +38,7 @@ export default function Parent() {
   const set = (s: Partial<Settings>) => update({ ...state, settings: { ...state.settings, ...s } });
 
   function confirmReset() {
-    const doReset = async () => { await resetState(); router.replace('/'); };
+    const doReset = async () => { await resetState(); router.dismissTo('/'); };
     const msg = 'This deletes all progress on this phone. It cannot be undone.';
     if (Platform.OS === 'web') {
       if (globalThis.confirm?.(msg)) doReset();
@@ -48,10 +53,44 @@ export default function Parent() {
     ]);
   }
 
+  const week = wordsThisWeek(WORDS, state, dayString());
+  const practice = needsPractice(WORDS, state);
+
   return (
     <Screen title="Parents">
-      {/* Progress, this week's words and words that need practice are added in Step 10. */}
       <View style={styles.card}>
+        <Text style={styles.heading}>Progress</Text>
+        <Stat label="Streak" value={`${state.streak.count} day${state.streak.count === 1 ? '' : 's'}`} />
+        <Stat label="Units finished" value={`${state.completedUnits.length} / ${UNITS.length}`} />
+        <Stat label="Home sentences done" value={`${state.homeDone.length} / ${state.completedUnits.length}`} />
+        {([1, 2, 3] as const).map(level => {
+          const s = levelStats(WORDS, state, level);
+          return (
+            <View key={level} style={{ gap: 4 }}>
+              <Text style={styles.levelText}>Level {level}: {s.started} started · {s.mastered} mastered · of {s.total}</Text>
+              <ProgressBar value={s.started / s.total} />
+              <ProgressBar value={s.mastered / s.total} color={colors.correct} />
+            </View>
+          );
+        })}
+        <Text style={styles.hint}>Blue: started. Green: mastered (box 5 and used in a sentence).</Text>
+      </View>
+
+      <View style={styles.card}>
+        <Text style={styles.heading}>This week's words</Text>
+        <Text style={styles.hint}>Use these at home so they come up in real conversation.</Text>
+        {week.length === 0 ? <Text style={styles.hint}>No new words in the last 7 days.</Text>
+          : week.map(w => <WordRow key={w.id} w={w} />)}
+      </View>
+
+      <View style={styles.card}>
+        <Text style={styles.heading}>Needs practice</Text>
+        {practice.length === 0 ? <Text style={styles.hint}>No mistakes yet.</Text>
+          : practice.map(w => <WordRow key={w.id} w={w} extra={`${state.progress[w.id].wrong}×`} />)}
+      </View>
+
+      <View style={styles.card}>
+        <Text style={styles.heading}>Settings</Text>
         <Text style={styles.label}>New words per day</Text>
         <Segmented options={[3, 5, 8].map(n => ({ value: n as Settings['newPerDay'], label: String(n) }))}
                    value={state.settings.newPerDay} onChange={v => set({ newPerDay: v })} />
@@ -61,6 +100,28 @@ export default function Parent() {
       </View>
       <Button kind="secondary" label="Reset progress" onPress={confirmReset} />
     </Screen>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: string }) {
+  return (
+    <View style={styles.stat}>
+      <Text style={styles.statLabel}>{label}</Text>
+      <Text style={styles.statValue}>{value}</Text>
+    </View>
+  );
+}
+
+function WordRow({ w, extra }: { w: Word; extra?: string }) {
+  return (
+    <View style={styles.wordRow}>
+      <Geez style={styles.wordGeez}>{w.word}</Geez>
+      <View style={{ flex: 1 }}>
+        <Text style={styles.wordPron}>{w.pron}</Text>
+        <Text style={styles.wordEn} numberOfLines={2}>{w.meaning}</Text>
+      </View>
+      {extra && <Text style={styles.wrong}>{extra}</Text>}
+    </View>
   );
 }
 
@@ -88,6 +149,16 @@ const styles = StyleSheet.create({
   card: { backgroundColor: colors.card, borderRadius: 18, padding: 16, gap: 10, borderWidth: 1, borderColor: colors.line },
   label: { fontSize: 14, color: colors.muted, textTransform: 'uppercase', fontWeight: '700' },
   hint: { fontSize: 14, color: colors.muted },
+  heading: { fontSize: 20, fontWeight: '700', color: colors.text },
+  stat: { flexDirection: 'row', justifyContent: 'space-between' },
+  statLabel: { fontSize: 17, color: colors.muted },
+  statValue: { fontSize: 17, fontWeight: '700', color: colors.text },
+  levelText: { fontSize: 15, color: colors.text },
+  wordRow: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 48 },
+  wordGeez: { fontSize: 24, lineHeight: 36, color: colors.text, minWidth: 80 },
+  wordPron: { fontSize: 15, color: colors.muted },
+  wordEn: { fontSize: 16, color: colors.text },
+  wrong: { fontSize: 15, fontWeight: '700', color: colors.wrong },
   segmented: { flexDirection: 'row', gap: 8 },
   segment: { flex: 1, minHeight: 48, borderRadius: 12, borderWidth: 1, borderColor: colors.line, alignItems: 'center', justifyContent: 'center' },
   segmentOn: { backgroundColor: colors.primary, borderColor: colors.primary },

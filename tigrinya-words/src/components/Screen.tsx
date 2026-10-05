@@ -28,7 +28,7 @@ export function Screen({ title, back = true, scroll = true, children }:
       {(back || title) && (
         <View style={styles.header}>
           {back && (
-            <Pressable onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
+            <Pressable onPress={() => (router.canGoBack() ? router.back() : router.dismissTo('/'))}
                        hitSlop={12} accessibilityRole="button" accessibilityLabel="Back">
               <Text style={styles.back}>‹ Back</Text>
             </Pressable>

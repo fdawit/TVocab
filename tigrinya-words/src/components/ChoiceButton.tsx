@@ -5,8 +5,8 @@ import { colors } from './Screen';
 export type ChoiceState = 'idle' | 'correct' | 'wrong' | 'dim';
 
 /** One tap-to-choose answer: full width, at least 56 points tall. */
-export function ChoiceButton({ label, geez, state = 'idle', onPress, disabled }:
-  { label: string; geez?: boolean; state?: ChoiceState; onPress: () => void; disabled?: boolean }) {
+export function ChoiceButton({ label, sub, geez, state = 'idle', onPress, disabled }:
+  { label: string; sub?: string; geez?: boolean; state?: ChoiceState; onPress: () => void; disabled?: boolean }) {
   const look = state === 'correct' ? { borderColor: colors.correct, backgroundColor: colors.correctBg }
     : state === 'wrong' ? { borderColor: colors.wrong, backgroundColor: colors.wrongBg }
     : state === 'dim' ? { opacity: 0.5 } : null;
@@ -16,6 +16,7 @@ export function ChoiceButton({ label, geez, state = 'idle', onPress, disabled }:
       {geez
         ? <Geez style={styles.geez}>{label}</Geez>
         : <Text style={styles.text}>{label}</Text>}
+      {!!sub && <Text style={styles.sub}>{sub}</Text>}
     </Pressable>
   );
 }
@@ -27,4 +28,5 @@ const styles = StyleSheet.create({
   },
   geez: { fontSize: 26, lineHeight: 38, color: colors.text, textAlign: 'center' },
   text: { fontSize: 22, color: colors.text, textAlign: 'center' },
+  sub: { fontSize: 16, color: colors.muted, textAlign: 'center' },
 });
