@@ -2,66 +2,2018 @@
   {
     "id": "hello-dad",
     "title": "Hello, Dad!",
-    "character": { "ti": "ኣቦይ", "rom": "aboy", "en": "Dad", "gender": "m" },
+    "character": {
+      "ti": "ኣቦይ",
+      "rom": "aboy",
+      "en": "Dad",
+      "gender": "m"
+    },
     "glossary": [
-      { "ti": "ኣለኻ", "rom": "allekha", "en": "you are (to a boy or man)" },
-      { "ti": "ኣለኺ", "rom": "allekhi", "en": "you are (to a girl or woman)" },
-      { "ti": "የቐንየለይ", "rom": "yeqenyeley", "en": "thank you" },
-      { "ti": "ንስኻኸ", "rom": "niskhakhe", "en": "and you? (to a boy or man)" },
-      { "ti": "ንስኺኸ", "rom": "niskhikhe", "en": "and you? (to a girl or woman)" },
-      { "ti": "ኪድ", "rom": "kid", "en": "go (to a boy)" },
-      { "ti": "ኪዲ", "rom": "kidi", "en": "go (to a girl)" }
+      {
+        "ti": "ኣለኻ",
+        "rom": "allekha",
+        "en": "you are (to a boy or man)"
+      },
+      {
+        "ti": "ኣለኺ",
+        "rom": "allekhi",
+        "en": "you are (to a girl or woman)"
+      },
+      {
+        "ti": "የቐንየለይ",
+        "rom": "yeqenyeley",
+        "en": "thank you"
+      },
+      {
+        "ti": "ንስኻኸ",
+        "rom": "niskhakhe",
+        "en": "and you? (to a boy or man)"
+      },
+      {
+        "ti": "ንስኺኸ",
+        "rom": "niskhikhe",
+        "en": "and you? (to a girl or woman)"
+      },
+      {
+        "ti": "ኪድ",
+        "rom": "kid",
+        "en": "go (to a boy)"
+      },
+      {
+        "ti": "ኪዲ",
+        "rom": "kidi",
+        "en": "go (to a girl)"
+      }
     ],
     "turns": [
-      { "them": { "ti": "ሰላም! ከመይ ኣለኻ?", "rom": "selam! kemey allekha?", "en": "Hello! How are you?",
-                  "girl": { "ti": "ሰላም! ከመይ ኣለኺ?", "rom": "selam! kemey allekhi?" } } },
-      { "reply": [
-          { "ti": "ደሓን እየ፡ የቐንየለይ።", "rom": "dehan iye, yeqenyeley.", "en": "I'm fine, thank you.", "correct": true },
-          { "ti": "ሰናይ መዓልቲ!", "rom": "senay me'alti!", "en": "Have a good day!", "why": "That's for saying goodbye. Dad asked how you are." },
-          { "ti": "እዚ እንታይ እዩ?", "rom": "izi intay iyu?", "en": "What is this?", "why": "Dad asked how you are, not what something is." } ] },
-      { "reply": [
-          { "ti": "ንስኻኸ?", "rom": "niskhakhe?", "en": "And you?", "correct": true },
-          { "ti": "ንስኺኸ?", "rom": "niskhikhe?", "en": "And you? (to a girl or woman)", "why": "Dad is a man, so ask ንስኻኸ?" },
-          { "ti": "መን እዩ?", "rom": "men iyu?", "en": "Who is it?", "why": "You already know it's Dad. Ask how he is." } ] },
-      { "them": { "ti": "ደሓን እየ።", "rom": "dehan iye.", "en": "I'm fine." } },
-      { "them": { "ti": "ብሰላም ኪድ።", "rom": "biselam kid.", "en": "Go in peace. (Bye!)",
-                  "girl": { "ti": "ብሰላም ኪዲ።", "rom": "biselam kidi." } } },
-      { "reply": [
-          { "ti": "ሰናይ መዓልቲ!", "rom": "senay me'alti!", "en": "Have a good day!", "correct": true },
-          { "ti": "ሰላም! ከመይ ኣለኻ?", "rom": "selam! kemey allekha?", "en": "Hello! How are you?", "why": "That's a hello. Dad is saying goodbye." },
-          { "ti": "ኣብ ገዛ ኣለኹ።", "rom": "ab geza allekhu.", "en": "I am at home.", "why": "Dad didn't ask where you are." } ] }
+      {
+        "them": {
+          "ti": "ሰላም! ከመይ ኣለኻ?",
+          "rom": "selam! kemey allekha?",
+          "en": "Hello! How are you?",
+          "girl": {
+            "ti": "ሰላም! ከመይ ኣለኺ?",
+            "rom": "selam! kemey allekhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ደሓን እየ፡ የቐንየለይ።",
+            "rom": "dehan iye, yeqenyeley.",
+            "en": "I'm fine, thank you.",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ መዓልቲ!",
+            "rom": "senay me'alti!",
+            "en": "Have a good day!",
+            "why": "That's for saying goodbye. Dad asked how you are."
+          },
+          {
+            "ti": "እዚ እንታይ እዩ?",
+            "rom": "izi intay iyu?",
+            "en": "What is this?",
+            "why": "Dad asked how you are, not what something is."
+          }
+        ]
+      },
+      {
+        "reply": [
+          {
+            "ti": "ንስኻኸ?",
+            "rom": "niskhakhe?",
+            "en": "And you?",
+            "correct": true
+          },
+          {
+            "ti": "ንስኺኸ?",
+            "rom": "niskhikhe?",
+            "en": "And you? (to a girl or woman)",
+            "why": "Dad is a man, so ask ንስኻኸ?"
+          },
+          {
+            "ti": "መን እዩ?",
+            "rom": "men iyu?",
+            "en": "Who is it?",
+            "why": "You already know it's Dad. Ask how he is."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ደሓን እየ።",
+          "rom": "dehan iye.",
+          "en": "I'm fine."
+        }
+      },
+      {
+        "them": {
+          "ti": "ብሰላም ኪድ።",
+          "rom": "biselam kid.",
+          "en": "Go in peace. (Bye!)",
+          "girl": {
+            "ti": "ብሰላም ኪዲ።",
+            "rom": "biselam kidi."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሰናይ መዓልቲ!",
+            "rom": "senay me'alti!",
+            "en": "Have a good day!",
+            "correct": true
+          },
+          {
+            "ti": "ሰላም! ከመይ ኣለኻ?",
+            "rom": "selam! kemey allekha?",
+            "en": "Hello! How are you?",
+            "why": "That's a hello. Dad is saying goodbye."
+          },
+          {
+            "ti": "ኣብ ገዛ ኣለኹ።",
+            "rom": "ab geza allekhu.",
+            "en": "I am at home.",
+            "why": "Dad didn't ask where you are."
+          }
+        ]
+      }
     ]
   },
   {
     "id": "where-are-you",
     "title": "Where are you?",
-    "character": { "ti": "ኣደይ", "rom": "adey", "en": "Mom", "gender": "f" },
+    "character": {
+      "ti": "ኣደይ",
+      "rom": "adey",
+      "en": "Mom",
+      "gender": "f"
+    },
     "glossary": [
-      { "ti": "ኣለኻ", "rom": "allekha", "en": "you are (to a boy or man)" },
-      { "ti": "ኣለኺ", "rom": "allekhi", "en": "you are (to a girl or woman)" },
-      { "ti": "ንዓ", "rom": "n'a", "en": "come (to a boy)" },
-      { "ti": "ንዒ", "rom": "n'i", "en": "come (to a girl)" },
-      { "ti": "ሃበኒ", "rom": "habeni", "en": "give me (to a boy or man)" },
-      { "ti": "ድሉው", "rom": "diluw", "en": "ready" }
+      {
+        "ti": "ኣለኻ",
+        "rom": "allekha",
+        "en": "you are (to a boy or man)"
+      },
+      {
+        "ti": "ኣለኺ",
+        "rom": "allekhi",
+        "en": "you are (to a girl or woman)"
+      },
+      {
+        "ti": "ንዓ",
+        "rom": "n'a",
+        "en": "come (to a boy)"
+      },
+      {
+        "ti": "ንዒ",
+        "rom": "n'i",
+        "en": "come (to a girl)"
+      },
+      {
+        "ti": "ሃበኒ",
+        "rom": "habeni",
+        "en": "give me (to a boy or man)"
+      },
+      {
+        "ti": "ድሉው",
+        "rom": "diluw",
+        "en": "ready"
+      }
     ],
     "turns": [
-      { "them": { "ti": "ኣበይ ኣለኻ?", "rom": "abey allekha?", "en": "Where are you?",
-                  "girl": { "ti": "ኣበይ ኣለኺ?", "rom": "abey allekhi?" } } },
-      { "reply": [
-          { "ti": "ኣብ ገዛ ኣለኹ።", "rom": "ab geza allekhu.", "en": "I am at home.", "correct": true },
-          { "ti": "ካብ ኣስመራ እየ።", "rom": "kab asmera iye.", "en": "I am from Asmara.", "why": "Mom asked where you are right now, not where you're from." },
-          { "ti": "ሎሚ ሰንበት እዩ።", "rom": "lomi senbet iyu.", "en": "Today is Sunday.", "why": "Mom asked where you are." } ] },
-      { "them": { "ti": "ማይ ኣሎ ድዩ?", "rom": "may allo diyu?", "en": "Is there water?" } },
-      { "reply": [
-          { "ti": "እወ፡ ማይ ኣሎ።", "rom": "iwe, may allo.", "en": "Yes, there is water.", "correct": true },
-          { "ti": "ማይ ሃበኒ።", "rom": "may habeni.", "en": "Give me water.", "why": "Mom asked if there is water. She didn't offer you any." },
-          { "ti": "ኣደይ ኣብ ገዛ ኣላ።", "rom": "adey ab geza alla.", "en": "My mom is at home.", "why": "You're talking to Mom!" } ] },
-      { "them": { "ti": "ሕጂ ንዓ!", "rom": "hiji n'a!", "en": "Come now!",
-                  "girl": { "ti": "ሕጂ ንዒ!", "rom": "hiji n'i!" } } },
-      { "reply": [
-          { "ti": "ይኹን!", "rom": "yikhun!", "en": "OK!", "correct": true },
-          { "ti": "ክሳብ ጽባሕ!", "rom": "kisab ts'ibah!", "en": "See you tomorrow!", "why": "Mom wants you to come now, not tomorrow." },
-          { "ti": "መግቢ ድሉው እዩ።", "rom": "megbi diluw iyu.", "en": "Food is ready.", "why": "That's what Mom might say, not you." } ] }
+      {
+        "them": {
+          "ti": "ኣበይ ኣለኻ?",
+          "rom": "abey allekha?",
+          "en": "Where are you?",
+          "girl": {
+            "ti": "ኣበይ ኣለኺ?",
+            "rom": "abey allekhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ኣብ ገዛ ኣለኹ።",
+            "rom": "ab geza allekhu.",
+            "en": "I am at home.",
+            "correct": true
+          },
+          {
+            "ti": "ካብ ኣስመራ እየ።",
+            "rom": "kab asmera iye.",
+            "en": "I am from Asmara.",
+            "why": "Mom asked where you are right now, not where you're from."
+          },
+          {
+            "ti": "ሎሚ ሰንበት እዩ።",
+            "rom": "lomi senbet iyu.",
+            "en": "Today is Sunday.",
+            "why": "Mom asked where you are."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ማይ ኣሎ ድዩ?",
+          "rom": "may allo diyu?",
+          "en": "Is there water?"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "እወ፡ ማይ ኣሎ።",
+            "rom": "iwe, may allo.",
+            "en": "Yes, there is water.",
+            "correct": true
+          },
+          {
+            "ti": "ማይ ሃበኒ።",
+            "rom": "may habeni.",
+            "en": "Give me water.",
+            "why": "Mom asked if there is water. She didn't offer you any."
+          },
+          {
+            "ti": "ኣደይ ኣብ ገዛ ኣላ።",
+            "rom": "adey ab geza alla.",
+            "en": "My mom is at home.",
+            "why": "You're talking to Mom!"
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ሕጂ ንዓ!",
+          "rom": "hiji n'a!",
+          "en": "Come now!",
+          "girl": {
+            "ti": "ሕጂ ንዒ!",
+            "rom": "hiji n'i!"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ይኹን!",
+            "rom": "yikhun!",
+            "en": "OK!",
+            "correct": true
+          },
+          {
+            "ti": "ክሳብ ጽባሕ!",
+            "rom": "kisab ts'ibah!",
+            "en": "See you tomorrow!",
+            "why": "Mom wants you to come now, not tomorrow."
+          },
+          {
+            "ti": "መግቢ ድሉው እዩ።",
+            "rom": "megbi diluw iyu.",
+            "en": "Food is ready.",
+            "why": "That's what Mom might say, not you."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bedtime",
+    "title": "Bedtime",
+    "character": {
+      "ti": "ኣደይ",
+      "rom": "adey",
+      "en": "Mom",
+      "gender": "f"
+    },
+    "glossary": [
+      {
+        "ti": "ኢድካ",
+        "rom": "idka",
+        "en": "your hand (to a boy)"
+      },
+      {
+        "ti": "ኢድኪ",
+        "rom": "idki",
+        "en": "your hand (to a girl)"
+      },
+      {
+        "ti": "ተሓጸብ",
+        "rom": "tehats'eb",
+        "en": "wash (to a boy)"
+      },
+      {
+        "ti": "ተሓጸቢ",
+        "rom": "tehats'ebi",
+        "en": "wash (to a girl)"
+      },
+      {
+        "ti": "ሕራይ",
+        "rom": "hiray",
+        "en": "OK; all right"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ግዜ ድቃስ እዩ።",
+          "rom": "gize diqas iyu.",
+          "en": "It's bedtime."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "እወ፡ ደሓን።",
+            "rom": "iwe, dehan.",
+            "en": "Yes, OK.",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ መዓልቲ!",
+            "rom": "senay me'alti!",
+            "en": "Have a good day!",
+            "why": "That's for the daytime. It's bedtime now."
+          },
+          {
+            "ti": "ኣብ ገዛ ኣለኹ።",
+            "rom": "ab geza allekhu.",
+            "en": "I am at home.",
+            "why": "Mom knows you're home. She said it's bedtime."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ቅድሚ ድቃስ ኢድካ ተሓጸብ።",
+          "rom": "qidmi diqas idka tehats'eb.",
+          "en": "Wash your hands before bed.",
+          "girl": {
+            "ti": "ቅድሚ ድቃስ ኢድኪ ተሓጸቢ።",
+            "rom": "qidmi diqas idki tehats'ebi."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሕራይ!",
+            "rom": "hiray!",
+            "en": "OK!",
+            "correct": true
+          },
+          {
+            "ti": "ሰዓት ክንደይ እዩ?",
+            "rom": "se'at kindey iyu?",
+            "en": "What time is it?",
+            "why": "Mom asked you to wash your hands."
+          },
+          {
+            "ti": "ኣቦይ መጺኡ!",
+            "rom": "aboy mets'i'u!",
+            "en": "Dad is here!",
+            "why": "Mom asked you to wash your hands. Dad didn't come."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ሰናይ ለይቲ!",
+          "rom": "senay leyti!",
+          "en": "Good night!"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሰናይ ለይቲ፡ ኣደይ!",
+            "rom": "senay leyti, adey!",
+            "en": "Good night, Mom!",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ መዓልቲ!",
+            "rom": "senay me'alti!",
+            "en": "Have a good day!",
+            "why": "That's for the morning. It's night now."
+          },
+          {
+            "ti": "ኣብዚ ኣለኹ!",
+            "rom": "abzi allekhu!",
+            "en": "I'm here!",
+            "why": "Mom said good night. Say it back."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "feeling-sick",
+    "title": "Feeling sick",
+    "character": {
+      "ti": "ኣደይ",
+      "rom": "adey",
+      "en": "Mom",
+      "gender": "f"
+    },
+    "glossary": [
+      {
+        "ti": "ዲኺ",
+        "rom": "dikhi",
+        "en": "are you? (to a girl)"
+      },
+      {
+        "ti": "ርእሰይ",
+        "rom": "ri'sey",
+        "en": "my head"
+      },
+      {
+        "ti": "ሓሚሙኒ",
+        "rom": "hamimuni",
+        "en": "it hurts me"
+      },
+      {
+        "ti": "ውሰድ",
+        "rom": "wised",
+        "en": "take (to a boy)"
+      },
+      {
+        "ti": "ውሰዲ",
+        "rom": "wisedi",
+        "en": "take (to a girl)"
+      },
+      {
+        "ti": "ሕራይ",
+        "rom": "hiray",
+        "en": "OK; all right"
+      },
+      {
+        "ti": "የቐንየለይ",
+        "rom": "yeqenyeley",
+        "en": "thank you"
+      },
+      {
+        "ti": "ይሃብካ",
+        "rom": "yihabka",
+        "en": "(may God) give you (to a boy)"
+      },
+      {
+        "ti": "ይሃብኪ",
+        "rom": "yihabki",
+        "en": "(may God) give you (to a girl)"
+      },
+      {
+        "ti": "ኣሜን",
+        "rom": "amen",
+        "en": "amen"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ደሓን ዲኻ?",
+          "rom": "dehan dikha?",
+          "en": "Are you OK?",
+          "girl": {
+            "ti": "ደሓን ዲኺ?",
+            "rom": "dehan dikhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ርእሰይ ሓሚሙኒ።",
+            "rom": "ri'sey hamimuni.",
+            "en": "I have a headache.",
+            "correct": true
+          },
+          {
+            "ti": "ጽቡቕ ዕድል!",
+            "rom": "ts'ibuq idil!",
+            "en": "Good luck!",
+            "why": "Mom asked if you're OK."
+          },
+          {
+            "ti": "ኣብዚ ኣለኹ!",
+            "rom": "abzi allekhu!",
+            "en": "I'm here!",
+            "why": "Mom asked if you're OK, not where you are."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "መድሃኒት ውሰድ።",
+          "rom": "medhanit wised.",
+          "en": "Take your medicine.",
+          "girl": {
+            "ti": "መድሃኒት ውሰዲ።",
+            "rom": "medhanit wisedi."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሕራይ፡ የቐንየለይ።",
+            "rom": "hiray, yeqenyeley.",
+            "en": "OK, thank you.",
+            "correct": true
+          },
+          {
+            "ti": "መድሃኒት ውሰድ።",
+            "rom": "medhanit wised.",
+            "en": "Take your medicine.",
+            "why": "That's what Mom said to you."
+          },
+          {
+            "ti": "ጽቡቕ ስራሕ!",
+            "rom": "ts'ibuq sirah!",
+            "en": "Good job!",
+            "why": "Mom is giving you medicine. Say OK, thank you."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጥዕና ይሃብካ።",
+          "rom": "t'i'na yihabka.",
+          "en": "Get well soon. (lit. \"May God give you health.\")",
+          "girl": {
+            "ti": "ጥዕና ይሃብኪ።",
+            "rom": "t'i'na yihabki."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ኣሜን።",
+            "rom": "amen.",
+            "en": "Amen.",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ መዓልቲ!",
+            "rom": "senay me'alti!",
+            "en": "Have a good day!",
+            "why": "Mom blessed you. Answer ኣሜን."
+          },
+          {
+            "ti": "ክንደይ እዩ?",
+            "rom": "kindey iyu?",
+            "en": "How much is it?",
+            "why": "That's for asking a price. Answer ኣሜን."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grandma-calls",
+    "title": "Grandma calls",
+    "character": {
+      "ti": "ዓባየይ",
+      "rom": "abayey",
+      "en": "Grandma",
+      "gender": "f"
+    },
+    "glossary": [
+      {
+        "ti": "ኣለኻ",
+        "rom": "allekha",
+        "en": "you are (to a boy or man)"
+      },
+      {
+        "ti": "ኣለኺ",
+        "rom": "allekhi",
+        "en": "you are (to a girl or woman)"
+      },
+      {
+        "ti": "ንስኺኸ",
+        "rom": "niskhikhe",
+        "en": "and you? (to a girl or woman)"
+      },
+      {
+        "ti": "ንስኻኸ",
+        "rom": "niskhakhe",
+        "en": "and you? (to a boy or man)"
+      },
+      {
+        "ti": "ይመስገን",
+        "rom": "yimesgen",
+        "en": "be praised"
+      },
+      {
+        "ti": "ዕድመኻ",
+        "rom": "idmekha",
+        "en": "your age (to a boy)"
+      },
+      {
+        "ti": "ዕድመኺ",
+        "rom": "idmekhi",
+        "en": "your age (to a girl)"
+      },
+      {
+        "ti": "ዕድመይ",
+        "rom": "idmey",
+        "en": "my age"
+      },
+      {
+        "ti": "ትዛረብ",
+        "rom": "tizareb",
+        "en": "you speak (to a boy)"
+      },
+      {
+        "ti": "ትዛረቢ",
+        "rom": "tizarebi",
+        "en": "you speak (to a girl)"
+      },
+      {
+        "ti": "ዲኺ",
+        "rom": "dikhi",
+        "en": "are you? (to a girl)"
+      },
+      {
+        "ti": "ጐበዝ",
+        "rom": "gobez",
+        "en": "great; clever (boy)"
+      },
+      {
+        "ti": "ጐባዝ",
+        "rom": "gobaz",
+        "en": "great; clever (girl)"
+      },
+      {
+        "ti": "የቐንየለይ",
+        "rom": "yeqenyeley",
+        "en": "thank you"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ሰላም! ከመይ ኣለኻ?",
+          "rom": "selam! kemey allekha?",
+          "en": "Hello! How are you?",
+          "girl": {
+            "ti": "ሰላም! ከመይ ኣለኺ?",
+            "rom": "selam! kemey allekhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ደሓን እየ። ንስኺኸ?",
+            "rom": "dehan iye. niskhikhe?",
+            "en": "I'm fine. And you?",
+            "correct": true
+          },
+          {
+            "ti": "ደሓን እየ። ንስኻኸ?",
+            "rom": "dehan iye. niskhakhe?",
+            "en": "I'm fine. And you? (to a boy or man)",
+            "why": "Grandma is a woman, so ask ንስኺኸ?"
+          },
+          {
+            "ti": "ኣቦይ ኣብ ስራሕ ኣሎ።",
+            "rom": "aboy ab sirah allo.",
+            "en": "Dad is at work.",
+            "why": "Grandma asked how you are."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ደሓን እየ፡ ኣምላኽ ይመስገን።",
+          "rom": "dehan iye, amlakh yimesgen.",
+          "en": "I'm fine, thank God."
+        }
+      },
+      {
+        "them": {
+          "ti": "ዕድመኻ ክንደይ እዩ?",
+          "rom": "idmekha kindey iyu?",
+          "en": "How old are you?",
+          "girl": {
+            "ti": "ዕድመኺ ክንደይ እዩ?",
+            "rom": "idmekhi kindey iyu?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ዕድመይ ሸውዓተ ዓመት እዩ።",
+            "rom": "idmey shew'ate amet iyu.",
+            "en": "I am seven years old.",
+            "correct": true
+          },
+          {
+            "ti": "ሎሚ ሰንበት እዩ።",
+            "rom": "lomi senbet iyu.",
+            "en": "Today is Sunday.",
+            "why": "Grandma asked how old you are."
+          },
+          {
+            "ti": "ክንደይ እዩ?",
+            "rom": "kindey iyu?",
+            "en": "How much is it?",
+            "why": "That's for asking a price. Grandma asked your age."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ትግርኛ ትዛረብ ዲኻ?",
+          "rom": "tigrinya tizareb dikha?",
+          "en": "Do you speak Tigrinya?",
+          "girl": {
+            "ti": "ትግርኛ ትዛረቢ ዲኺ?",
+            "rom": "tigrinya tizarebi dikhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "እወ፡ ሒደት።",
+            "rom": "iwe, hidet.",
+            "en": "Yes, a little.",
+            "correct": true
+          },
+          {
+            "ti": "ካብ ኣስመራ እየ።",
+            "rom": "kab asmera iye.",
+            "en": "I am from Asmara.",
+            "why": "Grandma asked if you speak Tigrinya, not where you're from."
+          },
+          {
+            "ti": "ጽቡቕ ስራሕ!",
+            "rom": "ts'ibuq sirah!",
+            "en": "Good job!",
+            "why": "That's praise. Grandma asked if you speak Tigrinya."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጐበዝ ኢኻ!",
+          "rom": "gobez ikha!",
+          "en": "You're great!",
+          "girl": {
+            "ti": "ጐባዝ ኢኺ!",
+            "rom": "gobaz ikhi!"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ብዙሕ የቐንየለይ!",
+            "rom": "bizuh yeqenyeley!",
+            "en": "Thank you very much!",
+            "correct": true
+          },
+          {
+            "ti": "ሰዓት ክንደይ እዩ?",
+            "rom": "se'at kindey iyu?",
+            "en": "What time is it?",
+            "why": "Grandma praised you. Say thank you."
+          },
+          {
+            "ti": "መን እዩ?",
+            "rom": "men iyu?",
+            "en": "Who is it?",
+            "why": "You know it's Grandma! Say thank you."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "at-the-market",
+    "title": "At the market",
+    "character": {
+      "ti": "ኣቦይ",
+      "rom": "aboy",
+      "en": "Dad",
+      "gender": "m"
+    },
+    "glossary": [
+      {
+        "ti": "ንኺድ",
+        "rom": "nikhid",
+        "en": "let's go"
+      },
+      {
+        "ti": "ሕራይ",
+        "rom": "hiray",
+        "en": "OK; all right"
+      },
+      {
+        "ti": "ትደሊ",
+        "rom": "tideli",
+        "en": "you want (to a boy)"
+      },
+      {
+        "ti": "ትደልዪ",
+        "rom": "tideliyi",
+        "en": "you want (to a girl)"
+      },
+      {
+        "ti": "እደሊ",
+        "rom": "ideli",
+        "en": "I want"
+      },
+      {
+        "ti": "ብላዕ",
+        "rom": "bila'",
+        "en": "eat (to a boy)"
+      },
+      {
+        "ti": "ዋጋኡ",
+        "rom": "waga'u",
+        "en": "its price"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ናብ ዕዳጋ ንኺድ።",
+          "rom": "nab idaga nikhid.",
+          "en": "Let's go to the market."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሕራይ!",
+            "rom": "hiray!",
+            "en": "OK!",
+            "correct": true
+          },
+          {
+            "ti": "ግዜ ድቃስ እዩ።",
+            "rom": "gize diqas iyu.",
+            "en": "It's bedtime.",
+            "why": "It's not bedtime. Dad wants to go to the market."
+          },
+          {
+            "ti": "ሰናይ ለይቲ!",
+            "rom": "senay leyti!",
+            "en": "Good night!",
+            "why": "That's for night time. Dad wants to go to the market."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "እንታይ ትደሊ?",
+          "rom": "intay tideli?",
+          "en": "What do you want?",
+          "girl": {
+            "ti": "እንታይ ትደልዪ?",
+            "rom": "intay tideliyi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ፍረ እደሊ።",
+            "rom": "fire ideli.",
+            "en": "I want fruit.",
+            "correct": true
+          },
+          {
+            "ti": "ፍረ ብላዕ።",
+            "rom": "fire bila'.",
+            "en": "Eat fruit. (to a boy)",
+            "why": "That tells someone else to eat fruit. Say what you want."
+          },
+          {
+            "ti": "ዋጋኡ ክንደይ እዩ?",
+            "rom": "waga'u kindey iyu?",
+            "en": "How much does it cost?",
+            "why": "Dad asked what you want. You can ask the price later."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ሓደ ኪሎ ፍረ ዓሰርተ ናቕፋ እዩ።",
+          "rom": "hade kilo fire aserte naqfa iyu.",
+          "en": "One kilo of fruit is ten nakfa."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ጽቡቕ ዋጋ እዩ።",
+            "rom": "ts'ibuq waga iyu.",
+            "en": "That's a good price.",
+            "correct": true
+          },
+          {
+            "ti": "ዋጋኡ ክንደይ እዩ?",
+            "rom": "waga'u kindey iyu?",
+            "en": "How much does it cost?",
+            "why": "Dad just told you the price: ten nakfa."
+          },
+          {
+            "ti": "ሎሚ ሰንበት እዩ።",
+            "rom": "lomi senbet iyu.",
+            "en": "Today is Sunday.",
+            "why": "Dad is talking about the price, not the day."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "play-ball",
+    "title": "Let's play!",
+    "character": {
+      "ti": "ዳዊት",
+      "rom": "Dawit",
+      "en": "your cousin Dawit",
+      "gender": "m"
+    },
+    "glossary": [
+      {
+        "ti": "ንጻወት",
+        "rom": "nits'awet",
+        "en": "let's play"
+      },
+      {
+        "ti": "ኣለኒ",
+        "rom": "alleni",
+        "en": "I have"
+      },
+      {
+        "ti": "ደርብየለይ",
+        "rom": "derbiyeley",
+        "en": "throw (it) to me (to a boy)"
+      },
+      {
+        "ti": "ኣንብብ",
+        "rom": "anbib",
+        "en": "read (to a boy)"
+      },
+      {
+        "ti": "ኣእቲየ",
+        "rom": "a'tiye",
+        "en": "I scored; I put in"
+      },
+      {
+        "ti": "ጐበዝ",
+        "rom": "gobez",
+        "en": "great; clever (boy)"
+      },
+      {
+        "ti": "ጐባዝ",
+        "rom": "gobaz",
+        "en": "great; clever (girl)"
+      },
+      {
+        "ti": "ተራኻ",
+        "rom": "terakha",
+        "en": "your turn (to a boy)"
+      },
+      {
+        "ti": "ተራኺ",
+        "rom": "terakhi",
+        "en": "your turn (to a girl)"
+      },
+      {
+        "ti": "በል",
+        "rom": "bel",
+        "en": "say; do (to a boy; in ደው በል = stop)"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ብሓባር ንጻወት።",
+          "rom": "bihabar nits'awet.",
+          "en": "Let's play together."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ጽቡቕ ሓሳብ!",
+            "rom": "ts'ibuq hasab!",
+            "en": "Good idea!",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ ለይቲ!",
+            "rom": "senay leyti!",
+            "en": "Good night!",
+            "why": "Dawit wants to play. It's not bedtime."
+          },
+          {
+            "ti": "ካብ ኣስመራ እየ።",
+            "rom": "kab asmera iye.",
+            "en": "I am from Asmara.",
+            "why": "Dawit asked you to play. Answer him!"
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ኩዕሶ ኣለኒ።",
+          "rom": "ku'so alleni.",
+          "en": "I have a ball."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ኩዕሶ ደርብየለይ።",
+            "rom": "ku'so derbiyeley.",
+            "en": "Throw me the ball.",
+            "correct": true
+          },
+          {
+            "ti": "መጽሓፍ ኣንብብ።",
+            "rom": "mets'haf anbib.",
+            "en": "Read a book.",
+            "why": "You're playing ball, not reading!"
+          },
+          {
+            "ti": "ማይ ኣሎ ድዩ?",
+            "rom": "may allo diyu?",
+            "en": "Is there water?",
+            "why": "Ask Dawit for the ball."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ሸቶ ኣእቲየ!",
+          "rom": "sheto a'tiye!",
+          "en": "I scored a goal!"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ጐበዝ ኢኻ!",
+            "rom": "gobez ikha!",
+            "en": "You're great!",
+            "correct": true
+          },
+          {
+            "ti": "ጐባዝ ኢኺ!",
+            "rom": "gobaz ikhi!",
+            "en": "You're great! (to a girl)",
+            "why": "Dawit is a boy, so say ጐበዝ ኢኻ!"
+          },
+          {
+            "ti": "ሓደ ሕቶ ኣለኒ።",
+            "rom": "hade hito alleni.",
+            "en": "I have a question.",
+            "why": "Dawit scored! Cheer for him."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ተራኻ እዩ።",
+          "rom": "terakha iyu.",
+          "en": "It's your turn.",
+          "girl": {
+            "ti": "ተራኺ እዩ።",
+            "rom": "terakhi iyu."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ይኹን!",
+            "rom": "yikhun!",
+            "en": "OK!",
+            "correct": true
+          },
+          {
+            "ti": "ተራኻ እዩ።",
+            "rom": "terakha iyu.",
+            "en": "It's your turn.",
+            "why": "Dawit said it's YOUR turn."
+          },
+          {
+            "ti": "ደው በል!",
+            "rom": "dew bel!",
+            "en": "Stop!",
+            "why": "It's your turn to play, not time to stop."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "homework",
+    "title": "Homework",
+    "character": {
+      "ti": "ኣቦይ",
+      "rom": "aboy",
+      "en": "Dad",
+      "gender": "m"
+    },
+    "glossary": [
+      {
+        "ti": "ወዲእካ",
+        "rom": "wedi'ka",
+        "en": "you finished (to a boy)"
+      },
+      {
+        "ti": "ወዲእኪ",
+        "rom": "wedi'ki",
+        "en": "you finished (to a girl)"
+      },
+      {
+        "ti": "ዲኺ",
+        "rom": "dikhi",
+        "en": "are you? (to a girl)"
+      },
+      {
+        "ti": "ወዲአ",
+        "rom": "wedi'e",
+        "en": "I finished"
+      },
+      {
+        "ti": "ጐበዝ",
+        "rom": "gobez",
+        "en": "well done (to a boy)"
+      },
+      {
+        "ti": "ጐባዝ",
+        "rom": "gobaz",
+        "en": "well done (to a girl)"
+      },
+      {
+        "ti": "ኣእዳውካ",
+        "rom": "a'dawka",
+        "en": "your hands (to a boy)"
+      },
+      {
+        "ti": "ኣእዳውኪ",
+        "rom": "a'dawki",
+        "en": "your hands (to a girl)"
+      },
+      {
+        "ti": "ተሓጸብ",
+        "rom": "tehats'eb",
+        "en": "wash (to a boy)"
+      },
+      {
+        "ti": "ተሓጸቢ",
+        "rom": "tehats'ebi",
+        "en": "wash (to a girl)"
+      },
+      {
+        "ti": "ድሉው",
+        "rom": "diluw",
+        "en": "ready"
+      },
+      {
+        "ti": "ሕራይ",
+        "rom": "hiray",
+        "en": "OK; all right"
+      },
+      {
+        "ti": "ንበልዕ",
+        "rom": "nibeli'",
+        "en": "we eat; let's eat"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ዕዮ ገዛ ወዲእካ ዲኻ?",
+          "rom": "iyo geza wedi'ka dikha?",
+          "en": "Did you finish your homework?",
+          "girl": {
+            "ti": "ዕዮ ገዛ ወዲእኪ ዲኺ?",
+            "rom": "iyo geza wedi'ki dikhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "እወ፡ ድሮ ወዲአ።",
+            "rom": "iwe, diro wedi'e.",
+            "en": "Yes, I already finished.",
+            "correct": true
+          },
+          {
+            "ti": "ኣሕዋተይ ኣብ ገዛ ኣለዉ።",
+            "rom": "ahwatey ab geza allewu.",
+            "en": "My brothers are at home.",
+            "why": "Dad asked about your homework, not your brothers."
+          },
+          {
+            "ti": "ሎሚ ሰንበት እዩ።",
+            "rom": "lomi senbet iyu.",
+            "en": "Today is Sunday.",
+            "why": "Dad asked if you finished your homework."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጐበዝ! ከቢድ ነይሩ ድዩ?",
+          "rom": "gobez! kebid neyru diyu?",
+          "en": "Well done! Was it hard?",
+          "girl": {
+            "ti": "ጐባዝ! ከቢድ ነይሩ ድዩ?",
+            "rom": "gobaz! kebid neyru diyu?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ቀሊል ነይሩ።",
+            "rom": "qelil neyru.",
+            "en": "It was easy.",
+            "correct": true
+          },
+          {
+            "ti": "ቅኑዕ መልሲ!",
+            "rom": "qinu' melsi!",
+            "en": "Correct answer!",
+            "why": "That's what a teacher says. Dad asked if it was hard."
+          },
+          {
+            "ti": "ሎሚ ሰንበት እዩ።",
+            "rom": "lomi senbet iyu.",
+            "en": "Today is Sunday.",
+            "why": "Dad asked whether the homework was hard."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ቅድም ኣእዳውካ ተሓጸብ፡ መግቢ ድሉው እዩ።",
+          "rom": "qidim a'dawka tehats'eb, megbi diluw iyu.",
+          "en": "First wash your hands. Food is ready.",
+          "girl": {
+            "ti": "ቅድም ኣእዳውኪ ተሓጸቢ፡ መግቢ ድሉው እዩ።",
+            "rom": "qidim a'dawki tehats'ebi, megbi diluw iyu."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሕራይ! ብሓደ ንበልዕ።",
+            "rom": "hiray! bihade nibeli'.",
+            "en": "OK! Let's eat together.",
+            "correct": true
+          },
+          {
+            "ti": "ግዜ ድቃስ እዩ።",
+            "rom": "gize diqas iyu.",
+            "en": "It's bedtime.",
+            "why": "It's dinner time, not bedtime."
+          },
+          {
+            "ti": "ሰናይ መዓልቲ!",
+            "rom": "senay me'alti!",
+            "en": "Have a good day!",
+            "why": "Dad said food is ready. Say OK!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "holiday",
+    "title": "Happy holiday!",
+    "character": {
+      "ti": "ዓባየይ",
+      "rom": "abayey",
+      "en": "Grandma",
+      "gender": "f"
+    },
+    "glossary": [
+      {
+        "ti": "ርሑስ",
+        "rom": "ruhus",
+        "en": "happy; blessed (for holidays)"
+      },
+      {
+        "ti": "ዓባየይ",
+        "rom": "abayey",
+        "en": "my grandma"
+      },
+      {
+        "ti": "ክርስቲያን",
+        "rom": "kristiyan",
+        "en": "Christian (in ቤተ ክርስቲያን = church)"
+      },
+      {
+        "ti": "ንኺድ",
+        "rom": "nikhid",
+        "en": "let's go"
+      },
+      {
+        "ti": "ይባርኽካ",
+        "rom": "yibarkhka",
+        "en": "bless you (to a boy)"
+      },
+      {
+        "ti": "ይባርኽኪ",
+        "rom": "yibarkhki",
+        "en": "bless you (to a girl)"
+      },
+      {
+        "ti": "ኣሜን",
+        "rom": "amen",
+        "en": "amen"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ርሑስ በዓል!",
+          "rom": "ruhus be'al!",
+          "en": "Happy holiday!"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ርሑስ በዓል፡ ዓባየይ!",
+            "rom": "ruhus be'al, abayey!",
+            "en": "Happy holiday, Grandma!",
+            "correct": true
+          },
+          {
+            "ti": "ጽቡቕ ዕድል!",
+            "rom": "ts'ibuq idil!",
+            "en": "Good luck!",
+            "why": "Grandma wished you a happy holiday. Wish it back!"
+          },
+          {
+            "ti": "ሰናይ ለይቲ!",
+            "rom": "senay leyti!",
+            "en": "Good night!",
+            "why": "It's a holiday greeting, not good night."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ናብ ቤተ ክርስቲያን ንኺድ።",
+          "rom": "nab bete kristiyan nikhid.",
+          "en": "Let's go to church."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ይኹን!",
+            "rom": "yikhun!",
+            "en": "OK!",
+            "correct": true
+          },
+          {
+            "ti": "ናብ ዕዳጋ ንኺድ።",
+            "rom": "nab idaga nikhid.",
+            "en": "Let's go to the market.",
+            "why": "Grandma wants to go to church today."
+          },
+          {
+            "ti": "ግዜ ድቃስ እዩ።",
+            "rom": "gize diqas iyu.",
+            "en": "It's bedtime.",
+            "why": "It's daytime. Grandma wants to go to church."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "እግዚኣብሄር ይባርኽካ።",
+          "rom": "igzi'abher yibarkhka.",
+          "en": "God bless you.",
+          "girl": {
+            "ti": "እግዚኣብሄር ይባርኽኪ።",
+            "rom": "igzi'abher yibarkhki."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ኣሜን።",
+            "rom": "amen.",
+            "en": "Amen.",
+            "correct": true
+          },
+          {
+            "ti": "መን እዩ?",
+            "rom": "men iyu?",
+            "en": "Who is it?",
+            "why": "Grandma blessed you. Answer ኣሜን."
+          },
+          {
+            "ti": "ክንደይ እዩ?",
+            "rom": "kindey iyu?",
+            "en": "How much is it?",
+            "why": "That's for prices. Grandma blessed you. Answer ኣሜን."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "soccer-match",
+    "title": "The big match",
+    "character": {
+      "ti": "ሳባ",
+      "rom": "Saba",
+      "en": "your cousin Saba",
+      "gender": "f"
+    },
+    "glossary": [
+      {
+        "ti": "ርኢኻ",
+        "rom": "ri'ikha",
+        "en": "you saw (to a boy)"
+      },
+      {
+        "ti": "ርኢኺ",
+        "rom": "ri'ikhi",
+        "en": "you saw (to a girl)"
+      },
+      {
+        "ti": "ዲኺ",
+        "rom": "dikhi",
+        "en": "are you? (to a girl)"
+      },
+      {
+        "ti": "ኣይፋል",
+        "rom": "ayfal",
+        "en": "no"
+      },
+      {
+        "ti": "ውሰድ",
+        "rom": "wised",
+        "en": "take (to a boy)"
+      },
+      {
+        "ti": "ድሉው",
+        "rom": "diluw",
+        "en": "ready"
+      },
+      {
+        "ti": "ኣእትዮም",
+        "rom": "a'tiyom",
+        "en": "they scored; they put in"
+      },
+      {
+        "ti": "ንርአ",
+        "rom": "nir'e",
+        "en": "let's watch; let's see"
+      },
+      {
+        "ti": "ርአ",
+        "rom": "ri'e",
+        "en": "watch; see (to a boy)"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ግጥም ኩዕሶ እግሪ ርኢኻ ዲኻ?",
+          "rom": "git'im ku'so igri ri'ikha dikha?",
+          "en": "Did you watch the soccer match?",
+          "girl": {
+            "ti": "ግጥም ኩዕሶ እግሪ ርኢኺ ዲኺ?",
+            "rom": "git'im ku'so igri ri'ikhi dikhi?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ኣይፋል። መዓስ ነይሩ?",
+            "rom": "ayfal. me'as neyru?",
+            "en": "No. When was it?",
+            "correct": true
+          },
+          {
+            "ti": "መድሃኒት ውሰድ።",
+            "rom": "medhanit wised.",
+            "en": "Take your medicine.",
+            "why": "Saba asked about the soccer match."
+          },
+          {
+            "ti": "መግቢ ድሉው እዩ።",
+            "rom": "megbi diluw iyu.",
+            "en": "Food is ready.",
+            "why": "Saba asked if you watched the match."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ትማሊ ነይሩ። ሰለስተ ሸቶታት ኣእትዮም!",
+          "rom": "timali neyru. seleste shetotat a'tiyom!",
+          "en": "It was yesterday. They scored three goals!"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ብሓቂ? ኣዝዩ ጽቡቕ!",
+            "rom": "bihaqi? azyu ts'ibuq!",
+            "en": "Really? Very good!",
+            "correct": true
+          },
+          {
+            "ti": "ሓደ እኳ የለን።",
+            "rom": "hade ikwa yelen.",
+            "en": "There isn't even one.",
+            "why": "Saba said they scored three goals!"
+          },
+          {
+            "ti": "ክንደይ እዩ?",
+            "rom": "kindey iyu?",
+            "en": "How much is it?",
+            "why": "That's for prices. Saba told you about the goals."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጽባሕ ዝካየድ ግጥም ኣሎ። ብሓባር ንርአ?",
+          "rom": "ts'ibah zikkayed git'im allo. bihabar nir'e?",
+          "en": "There's a match tomorrow. Shall we watch it together?"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ብርግጽ!",
+            "rom": "birgits'!",
+            "en": "For sure!",
+            "correct": true
+          },
+          {
+            "ti": "ኣብ ገዛ ነይረ።",
+            "rom": "ab geza neyre.",
+            "en": "I was at home.",
+            "why": "Saba asked about tomorrow, not the past."
+          },
+          {
+            "ti": "ቪድዮ ርአ።",
+            "rom": "vidyo ri'e.",
+            "en": "Watch a video. (to a boy)",
+            "why": "That's a command. Saba invited you to watch together."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "big-news",
+    "title": "Big news",
+    "character": {
+      "ti": "ኣቦይ",
+      "rom": "aboy",
+      "en": "Dad",
+      "gender": "m"
+    },
+    "glossary": [
+      {
+        "ti": "ሰሚዕካ",
+        "rom": "semi'ka",
+        "en": "you heard (to a boy)"
+      },
+      {
+        "ti": "ሰሚዕኪ",
+        "rom": "semi'ki",
+        "en": "you heard (to a girl)"
+      },
+      {
+        "ti": "የቐንየለይ",
+        "rom": "yeqenyeley",
+        "en": "thank you"
+      },
+      {
+        "ti": "ትመጽእ",
+        "rom": "timets'i'",
+        "en": "she comes; she is coming"
+      },
+      {
+        "ti": "ንኸይድ",
+        "rom": "nikheyd",
+        "en": "let's go"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ዜና ሰሚዕካ?",
+          "rom": "zena semi'ka?",
+          "en": "Did you hear the news?",
+          "girl": {
+            "ti": "ዜና ሰሚዕኪ?",
+            "rom": "zena semi'ki?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "እንታይ ዜና?",
+            "rom": "intay zena?",
+            "en": "What news?",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ ለይቲ!",
+            "rom": "senay leyti!",
+            "en": "Good night!",
+            "why": "Dad has news. Ask him what it is."
+          },
+          {
+            "ti": "ብዙሕ የቐንየለይ።",
+            "rom": "bizuh yeqenyeley.",
+            "en": "Thank you very much.",
+            "why": "Dad hasn't told you anything yet. Ask what the news is."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ኣደይ ጽባሕ ካብ ኣስመራ ትመጽእ።",
+          "rom": "adey ts'ibah kab asmera timets'i'.",
+          "en": "My mom (your grandma) is coming from Asmara tomorrow."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ብሓቂ? ኣዝዩ ጽቡቕ!",
+            "rom": "bihaqi? azyu ts'ibuq!",
+            "en": "Really? Very good!",
+            "correct": true
+          },
+          {
+            "ti": "ኣኼባ ወለዲ ኣሎ።",
+            "rom": "akheba weledi allo.",
+            "en": "There's a parents' meeting.",
+            "why": "Dad said Grandma is coming. Show you are happy!"
+          },
+          {
+            "ti": "ሓደ እኳ የለን።",
+            "rom": "hade ikwa yelen.",
+            "en": "There isn't even one.",
+            "why": "Dad told you Grandma is coming. Be happy!"
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጽባሕ ብሓባር ንኸይድ።",
+          "rom": "ts'ibah bihabar nikheyd.",
+          "en": "Tomorrow let's go (to meet her) together."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ብርግጽ!",
+            "rom": "birgits'!",
+            "en": "For sure!",
+            "correct": true
+          },
+          {
+            "ti": "ኣብ ገዛ ነይረ።",
+            "rom": "ab geza neyre.",
+            "en": "I was at home.",
+            "why": "Dad is talking about tomorrow, not the past."
+          },
+          {
+            "ti": "ቅኑዕ መልሲ!",
+            "rom": "qinu' melsi!",
+            "en": "Correct answer!",
+            "why": "That's what a teacher says. Dad asked you to come along."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "my-future",
+    "title": "When I grow up",
+    "character": {
+      "ti": "ኣደይ",
+      "rom": "adey",
+      "en": "Mom",
+      "gender": "f"
+    },
+    "glossary": [
+      {
+        "ti": "ዕላማኻ",
+        "rom": "ilamakha",
+        "en": "your goal (to a boy)"
+      },
+      {
+        "ti": "ዕላማኺ",
+        "rom": "ilamakhi",
+        "en": "your goal (to a girl)"
+      },
+      {
+        "ti": "እደሊ",
+        "rom": "ideli",
+        "en": "I want"
+      },
+      {
+        "ti": "እፈቱ",
+        "rom": "ifetu",
+        "en": "I like"
+      },
+      {
+        "ti": "ትኽእሊ",
+        "rom": "tikh'ili",
+        "en": "you can (to a girl)"
+      },
+      {
+        "ti": "የቐንየለይ",
+        "rom": "yeqenyeley",
+        "en": "thank you"
+      },
+      {
+        "ti": "ሰሚዕካ",
+        "rom": "semi'ka",
+        "en": "you heard (to a boy)"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ዕላማኻ እንታይ እዩ?",
+          "rom": "ilamakha intay iyu?",
+          "en": "What is your goal?",
+          "girl": {
+            "ti": "ዕላማኺ እንታይ እዩ?",
+            "rom": "ilamakhi intay iyu?"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "መምህር ክኸውን እደሊ።",
+            "rom": "memhir kikhewin ideli.",
+            "en": "I want to be a teacher.",
+            "correct": true
+          },
+          {
+            "ti": "ኣቦይ ተጋዳላይ ነይሩ።",
+            "rom": "aboy tegadalay neyru.",
+            "en": "My father was a freedom fighter.",
+            "why": "That is about Dad. Mom asked about your goal."
+          },
+          {
+            "ti": "ሕጂ ኣይክእልን።",
+            "rom": "hiji aykil'in.",
+            "en": "I can't right now.",
+            "why": "Mom asked what you want to be one day."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጽቡቕ ሓሳብ! ስለምንታይ?",
+          "rom": "ts'ibuq hasab! silemintay?",
+          "en": "Good idea! Why?"
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ምኽንያቱ ትምህርቲ እፈቱ።",
+            "rom": "mikhniyatu timhirti ifetu.",
+            "en": "Because I like school.",
+            "correct": true
+          },
+          {
+            "ti": "ብሓፈሻ ጽቡቕ እዩ።",
+            "rom": "bihafesha ts'ibuq iyu.",
+            "en": "In general, it's good.",
+            "why": "Mom asked why. Start with ምኽንያቱ (because)."
+          },
+          {
+            "ti": "ሓደ እኳ የለን።",
+            "rom": "hade ikwa yelen.",
+            "en": "There isn't even one.",
+            "why": "Mom asked why you want to be a teacher."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ትኽእል ኢኻ!",
+          "rom": "tikh'il ikha!",
+          "en": "You can do it!",
+          "girl": {
+            "ti": "ትኽእሊ ኢኺ!",
+            "rom": "tikh'ili ikhi!"
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "የቐንየለይ፡ ኣደይ!",
+            "rom": "yeqenyeley, adey!",
+            "en": "Thank you, Mom!",
+            "correct": true
+          },
+          {
+            "ti": "ትኽእል ኢኻ!",
+            "rom": "tikh'il ikha!",
+            "en": "You can do it!",
+            "why": "Mom said that to you. Thank her!"
+          },
+          {
+            "ti": "ዜና ሰሚዕካ?",
+            "rom": "zena semi'ka?",
+            "en": "Did you hear the news? (to a boy)",
+            "why": "Mom cheered you on. Say thank you."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "class-question",
+    "title": "A question in class",
+    "character": {
+      "ti": "መምህር",
+      "rom": "memhir",
+      "en": "Teacher",
+      "gender": "m"
+    },
+    "glossary": [
+      {
+        "ti": "ንመሃር",
+        "rom": "nimehar",
+        "en": "we learn; let's learn"
+      },
+      {
+        "ti": "ኪድ",
+        "rom": "kid",
+        "en": "go (to a boy)"
+      },
+      {
+        "ti": "ሕተቱ",
+        "rom": "hitetu",
+        "en": "ask (to a group)"
+      },
+      {
+        "ti": "ኣለኒ",
+        "rom": "alleni",
+        "en": "I have"
+      },
+      {
+        "ti": "ተጸበ",
+        "rom": "tets'ebe",
+        "en": "wait (to a boy)"
+      },
+      {
+        "ti": "ሕተት",
+        "rom": "hitet",
+        "en": "ask (to a boy)"
+      },
+      {
+        "ti": "ሕተቲ",
+        "rom": "hiteti",
+        "en": "ask (to a girl)"
+      },
+      {
+        "ti": "ኣለኻ",
+        "rom": "allekha",
+        "en": "you are (to a boy or man)"
+      }
+    ],
+    "turns": [
+      {
+        "them": {
+          "ti": "ሰላም ተመሃሮ! ሎሚ ሓደስቲ ቃላት ንመሃር።",
+          "rom": "selam temeharo! lomi hadesti qalat nimehar.",
+          "en": "Hello, students! Today we're learning new words."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሰላም፡ መምህር!",
+            "rom": "selam, memhir!",
+            "en": "Hello, teacher!",
+            "correct": true
+          },
+          {
+            "ti": "ሰናይ ለይቲ!",
+            "rom": "senay leyti!",
+            "en": "Good night!",
+            "why": "It's a school day. Say hello."
+          },
+          {
+            "ti": "ብሰላም ኪድ።",
+            "rom": "biselam kid.",
+            "en": "Go in peace. (Bye!)",
+            "why": "That's goodbye. The teacher just said hello."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ሕቶ እንተሎ ሕተቱ።",
+          "rom": "hito intello hitetu.",
+          "en": "If there is a question, ask."
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሓደ ሕቶ ኣለኒ።",
+            "rom": "hade hito alleni.",
+            "en": "I have a question.",
+            "correct": true
+          },
+          {
+            "ti": "ቅኑዕ መልሲ!",
+            "rom": "qinu' melsi!",
+            "en": "Correct answer!",
+            "why": "That's what a teacher says when you're right."
+          },
+          {
+            "ti": "ኣብ ሰልፊ ተጸበ።",
+            "rom": "ab selfi tets'ebe.",
+            "en": "Wait in line. (to a boy)",
+            "why": "That's an instruction. The teacher asked if you have a question."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ሕተት።",
+          "rom": "hitet.",
+          "en": "Ask.",
+          "girl": {
+            "ti": "ሕተቲ።",
+            "rom": "hiteti."
+          }
+        }
+      },
+      {
+        "reply": [
+          {
+            "ti": "ሰላም ማለት እንታይ ማለት እዩ?",
+            "rom": "selam malet intay malet iyu?",
+            "en": "What does \"selam\" mean?",
+            "correct": true
+          },
+          {
+            "ti": "ኣፍልጦ ሃብቲ እዩ።",
+            "rom": "afilt'o habti iyu.",
+            "en": "Knowledge is wealth.",
+            "why": "That's a saying, not a question."
+          },
+          {
+            "ti": "ሰላም! ከመይ ኣለኻ?",
+            "rom": "selam! kemey allekha?",
+            "en": "Hello! How are you?",
+            "why": "You already said hello. Ask your question about the word."
+          }
+        ]
+      },
+      {
+        "them": {
+          "ti": "ጽቡቕ ሕቶ!",
+          "rom": "ts'ibuq hito!",
+          "en": "Good question!"
+        }
+      }
     ]
   }
 ]
