@@ -6,7 +6,7 @@ import { Geez } from '../src/components/Geez';
 import soundsJson from '../src/data/sounds.json';
 import { WORDS } from '../src/lib/data';
 import { letterChart } from '../src/lib/letters';
-import { markSoundsSeen } from '../src/lib/storage';
+import { loadState, markSoundsSeen, saveState } from '../src/lib/storage';
 import { useAppState } from '../src/lib/useAppState';
 
 interface SoundCard { section: string; symbol: string; sayLike: string; letters: string; example: string; exampleMeaning: string }
@@ -21,14 +21,29 @@ export default function Sounds() {
   const cardWidth = Math.min(width, 600) - 32;
   const [page, setPage] = useState(0);
   const [letter, setLetter] = useState<string | null>(null);
+  const [askLearner, setAskLearner] = useState(false);
   const { state } = useAppState();
 
   const started = useMemo(() => WORDS.filter(w => state?.progress[w.id]), [state]);
   const startedText = useMemo(() => new Set([...started.map(w => w.word).join('')]), [started]);
 
-  async function finishLesson() {
+  // After the sound lesson, ask once how conversation characters should address the child.
+  async function finishLesson(learner: 'boy' | 'girl') {
+    const saved = await loadState();
+    await saveState({ ...saved, settings: { ...saved.settings, learner } });
     await markSoundsSeen();
     router.dismissTo('/');
+  }
+
+  if (askLearner) {
+    return (
+      <Screen title="One question" back={false}>
+        <Text style={styles.question}>Is the learner a boy or a girl?</Text>
+        <Text style={styles.hint}>Characters in the chats talk to boys and girls a little differently. Parents can change this later.</Text>
+        <Button label="Boy" onPress={() => finishLesson('boy')} />
+        <Button label="Girl" onPress={() => finishLesson('girl')} />
+      </Screen>
+    );
   }
 
   const card = SOUNDS[page];
@@ -52,7 +67,7 @@ export default function Sounds() {
         ))}
       </ScrollView>
       {firstLaunch && (
-        <Button label={page === SOUNDS.length - 1 ? "Let's start!" : 'Skip to the first lesson'} onPress={finishLesson}
+        <Button label={page === SOUNDS.length - 1 ? "Let's start!" : 'Skip to the first lesson'} onPress={() => setAskLearner(true)}
                 kind={page === SOUNDS.length - 1 ? 'primary' : 'secondary'} />
       )}
 
@@ -100,6 +115,7 @@ export default function Sounds() {
 
 const styles = StyleSheet.create({
   text: { fontSize: 18, color: colors.text },
+  question: { fontSize: 24, fontWeight: '700', color: colors.text },
   section: { fontSize: 14, color: colors.muted, textTransform: 'uppercase', fontWeight: '700' },
   card: {
     backgroundColor: colors.card, borderRadius: 18, padding: 20, gap: 10, borderWidth: 1, borderColor: colors.line,

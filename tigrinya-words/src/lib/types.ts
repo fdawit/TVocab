@@ -46,6 +46,7 @@ export interface WordProgress {
 export interface Settings {
   newPerDay: 3 | 5 | 8;
   romanization: 'auto' | 'always' | 'tap';
+  learner?: 'boy' | 'girl';   // how conversation characters address the child
 }
 
 export interface AppState {
@@ -55,6 +56,7 @@ export interface AppState {
   homeDone: number[];    // unit ids whose home sentence a parent confirmed
   streak: { count: number; lastDay: string };
   settings: Settings;
+  conversations?: Record<string, { stars: 1 | 2 | 3; lastPlayed: string; plays: number }>;
 }
 
 export interface Exercise {

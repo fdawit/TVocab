@@ -3,7 +3,7 @@ import { Alert, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'r
 import { router } from 'expo-router';
 import { Screen, Button, ProgressBar, colors } from '../src/components/Screen';
 import { Geez } from '../src/components/Geez';
-import { WORDS, UNITS } from '../src/lib/data';
+import { CONVERSATIONS, WORDS, UNITS } from '../src/lib/data';
 import { levelStats, needsPractice, wordsThisWeek } from '../src/lib/parent';
 import { dayString } from '../src/lib/scheduler';
 import type { Word } from '../src/lib/types';
@@ -63,6 +63,12 @@ export default function Parent() {
         <Stat label="Streak" value={`${state.streak.count} day${state.streak.count === 1 ? '' : 's'}`} />
         <Stat label="Units finished" value={`${state.completedUnits.length} / ${UNITS.length}`} />
         <Stat label="Home sentences done" value={`${state.homeDone.length} / ${state.completedUnits.length}`} />
+        <Stat label="Conversations" value={`${CONVERSATIONS.filter(c => state.conversations?.[c.id]).length} / ${CONVERSATIONS.length}`} />
+        {CONVERSATIONS.filter(c => state.conversations?.[c.id]).map(c => (
+          <Text key={c.id} style={styles.convLine}>
+            {c.title} <Text style={{ color: colors.star }}>{'★'.repeat(state.conversations![c.id].stars)}</Text>
+          </Text>
+        ))}
         {([1, 2, 3] as const).map(level => {
           const s = levelStats(WORDS, state, level);
           return (
@@ -94,6 +100,9 @@ export default function Parent() {
         <Text style={styles.label}>New words per day</Text>
         <Segmented options={[3, 5, 8].map(n => ({ value: n as Settings['newPerDay'], label: String(n) }))}
                    value={state.settings.newPerDay} onChange={v => set({ newPerDay: v })} />
+        <Text style={styles.label}>Is the learner a boy or a girl?</Text>
+        <Segmented options={[{ value: 'boy' as const, label: 'Boy' }, { value: 'girl' as const, label: 'Girl' }]}
+                   value={state.settings.learner ?? 'boy'} onChange={v => set({ learner: v })} />
         <Text style={styles.label}>Romanization</Text>
         <Segmented options={ROMANIZATION} value={state.settings.romanization} onChange={v => set({ romanization: v })} />
         <Text style={styles.hint}>Changes apply from the next session.</Text>
@@ -154,6 +163,7 @@ const styles = StyleSheet.create({
   statLabel: { fontSize: 17, color: colors.muted },
   statValue: { fontSize: 17, fontWeight: '700', color: colors.text },
   levelText: { fontSize: 15, color: colors.text },
+  convLine: { fontSize: 16, color: colors.text, paddingLeft: 12 },
   wordRow: { flexDirection: 'row', alignItems: 'center', gap: 12, minHeight: 48 },
   wordGeez: { fontSize: 24, lineHeight: 36, color: colors.text, minWidth: 80 },
   wordPron: { fontSize: 15, color: colors.muted },

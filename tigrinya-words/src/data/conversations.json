@@ -1,0 +1,350 @@
+[
+ {
+  "id": "hello-dad",
+  "title": "Hello, Dad!",
+  "character": {
+   "ti": "ኣቦይ",
+   "rom": "aboy",
+   "en": "Dad",
+   "gender": "m"
+  },
+  "glossary": [
+   {
+    "ti": "ኣለኻ",
+    "rom": "allekha",
+    "en": "you are (to a boy or man)"
+   },
+   {
+    "ti": "ኣለኺ",
+    "rom": "allekhi",
+    "en": "you are (to a girl or woman)"
+   },
+   {
+    "ti": "የቐንየለይ",
+    "rom": "yeqenyeley",
+    "en": "thank you"
+   },
+   {
+    "ti": "ንስኻኸ",
+    "rom": "niskhakhe",
+    "en": "and you? (to a boy or man)"
+   },
+   {
+    "ti": "ንስኺኸ",
+    "rom": "niskhikhe",
+    "en": "and you? (to a girl or woman)"
+   },
+   {
+    "ti": "ኪድ",
+    "rom": "kid",
+    "en": "go (to a boy)"
+   },
+   {
+    "ti": "ኪዲ",
+    "rom": "kidi",
+    "en": "go (to a girl)"
+   }
+  ],
+  "turns": [
+   {
+    "them": {
+     "ti": "ሰላም! ከመይ ኣለኻ?",
+     "rom": "selam! kemey allekha?",
+     "en": "Hello! How are you?",
+     "girl": {
+      "ti": "ሰላም! ከመይ ኣለኺ?",
+      "rom": "selam! kemey allekhi?"
+     }
+    }
+   },
+   {
+    "reply": [
+     {
+      "ti": "ደሓን እየ፡ የቐንየለይ።",
+      "rom": "dehan iye, yeqenyeley.",
+      "en": "I'm fine, thank you.",
+      "correct": true
+     },
+     {
+      "ti": "ሰናይ መዓልቲ!",
+      "rom": "senay me'alti!",
+      "en": "Have a good day!",
+      "why": "That's for saying goodbye. Dad asked how you are."
+     },
+     {
+      "ti": "እዚ እንታይ እዩ?",
+      "rom": "izi intay iyu?",
+      "en": "What is this?",
+      "why": "Dad asked how you are, not what something is."
+     }
+    ],
+    "creditWordIds": [
+     62,
+     776
+    ]
+   },
+   {
+    "reply": [
+     {
+      "ti": "ንስኻኸ?",
+      "rom": "niskhakhe?",
+      "en": "And you?",
+      "correct": true
+     },
+     {
+      "ti": "ንስኺኸ?",
+      "rom": "niskhikhe?",
+      "en": "And you? (to a girl or woman)",
+      "why": "Dad is a man, so ask ንስኻኸ?"
+     },
+     {
+      "ti": "መን እዩ?",
+      "rom": "men iyu?",
+      "en": "Who is it?",
+      "why": "You already know it's Dad. Ask how he is."
+     }
+    ],
+    "creditWordIds": []
+   },
+   {
+    "them": {
+     "ti": "ደሓን እየ።",
+     "rom": "dehan iye.",
+     "en": "I'm fine."
+    }
+   },
+   {
+    "them": {
+     "ti": "ብሰላም ኪድ።",
+     "rom": "biselam kid.",
+     "en": "Go in peace. (Bye!)",
+     "girl": {
+      "ti": "ብሰላም ኪዲ።",
+      "rom": "biselam kidi."
+     }
+    }
+   },
+   {
+    "reply": [
+     {
+      "ti": "ሰናይ መዓልቲ!",
+      "rom": "senay me'alti!",
+      "en": "Have a good day!",
+      "correct": true
+     },
+     {
+      "ti": "ሰላም! ከመይ ኣለኻ?",
+      "rom": "selam! kemey allekha?",
+      "en": "Hello! How are you?",
+      "why": "That's a hello. Dad is saying goodbye."
+     },
+     {
+      "ti": "ኣብ ገዛ ኣለኹ።",
+      "rom": "ab geza allekhu.",
+      "en": "I am at home.",
+      "why": "Dad didn't ask where you are."
+     }
+    ],
+    "creditWordIds": [
+     92,
+     709
+    ]
+   }
+  ],
+  "requiredWordIds": [
+   1,
+   3,
+   10,
+   31,
+   62,
+   92,
+   138,
+   173,
+   266,
+   276,
+   319,
+   709,
+   776,
+   987
+  ],
+  "afterUnitId": 17,
+  "tier": "romanized"
+ },
+ {
+  "id": "where-are-you",
+  "title": "Where are you?",
+  "character": {
+   "ti": "ኣደይ",
+   "rom": "adey",
+   "en": "Mom",
+   "gender": "f"
+  },
+  "glossary": [
+   {
+    "ti": "ኣለኻ",
+    "rom": "allekha",
+    "en": "you are (to a boy or man)"
+   },
+   {
+    "ti": "ኣለኺ",
+    "rom": "allekhi",
+    "en": "you are (to a girl or woman)"
+   },
+   {
+    "ti": "ንዓ",
+    "rom": "n'a",
+    "en": "come (to a boy)"
+   },
+   {
+    "ti": "ንዒ",
+    "rom": "n'i",
+    "en": "come (to a girl)"
+   },
+   {
+    "ti": "ሃበኒ",
+    "rom": "habeni",
+    "en": "give me (to a boy or man)"
+   },
+   {
+    "ti": "ድሉው",
+    "rom": "diluw",
+    "en": "ready"
+   }
+  ],
+  "turns": [
+   {
+    "them": {
+     "ti": "ኣበይ ኣለኻ?",
+     "rom": "abey allekha?",
+     "en": "Where are you?",
+     "girl": {
+      "ti": "ኣበይ ኣለኺ?",
+      "rom": "abey allekhi?"
+     }
+    }
+   },
+   {
+    "reply": [
+     {
+      "ti": "ኣብ ገዛ ኣለኹ።",
+      "rom": "ab geza allekhu.",
+      "en": "I am at home.",
+      "correct": true
+     },
+     {
+      "ti": "ካብ ኣስመራ እየ።",
+      "rom": "kab asmera iye.",
+      "en": "I am from Asmara.",
+      "why": "Mom asked where you are right now, not where you're from."
+     },
+     {
+      "ti": "ሎሚ ሰንበት እዩ።",
+      "rom": "lomi senbet iyu.",
+      "en": "Today is Sunday.",
+      "why": "Mom asked where you are."
+     }
+    ],
+    "creditWordIds": [
+     1,
+     138,
+     266
+    ]
+   },
+   {
+    "them": {
+     "ti": "ማይ ኣሎ ድዩ?",
+     "rom": "may allo diyu?",
+     "en": "Is there water?"
+    }
+   },
+   {
+    "reply": [
+     {
+      "ti": "እወ፡ ማይ ኣሎ።",
+      "rom": "iwe, may allo.",
+      "en": "Yes, there is water.",
+      "correct": true
+     },
+     {
+      "ti": "ማይ ሃበኒ።",
+      "rom": "may habeni.",
+      "en": "Give me water.",
+      "why": "Mom asked if there is water. She didn't offer you any."
+     },
+     {
+      "ti": "ኣደይ ኣብ ገዛ ኣላ።",
+      "rom": "adey ab geza alla.",
+      "en": "My mom is at home.",
+      "why": "You're talking to Mom!"
+     }
+    ],
+    "creditWordIds": [
+     33,
+     93,
+     517
+    ]
+   },
+   {
+    "them": {
+     "ti": "ሕጂ ንዓ!",
+     "rom": "hiji n'a!",
+     "en": "Come now!",
+     "girl": {
+      "ti": "ሕጂ ንዒ!",
+      "rom": "hiji n'i!"
+     }
+    }
+   },
+   {
+    "reply": [
+     {
+      "ti": "ይኹን!",
+      "rom": "yikhun!",
+      "en": "OK!",
+      "correct": true
+     },
+     {
+      "ti": "ክሳብ ጽባሕ!",
+      "rom": "kisab ts'ibah!",
+      "en": "See you tomorrow!",
+      "why": "Mom wants you to come now, not tomorrow."
+     },
+     {
+      "ti": "መግቢ ድሉው እዩ።",
+      "rom": "megbi diluw iyu.",
+      "en": "Food is ready.",
+      "why": "That's what Mom might say, not you."
+     }
+    ],
+    "creditWordIds": [
+     91
+    ]
+   }
+  ],
+  "requiredWordIds": [
+   1,
+   3,
+   4,
+   33,
+   38,
+   62,
+   71,
+   84,
+   91,
+   93,
+   119,
+   138,
+   247,
+   261,
+   266,
+   353,
+   503,
+   517,
+   652,
+   677,
+   697
+  ],
+  "afterUnitId": 44,
+  "tier": "mixed"
+ }
+]
