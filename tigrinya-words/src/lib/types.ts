@@ -47,6 +47,7 @@ export interface Settings {
   newPerDay: 3 | 5 | 8;
   romanization: 'auto' | 'always' | 'tap';
   learner?: 'boy' | 'girl';   // how conversation characters address the child
+  freeRecall?: 'auto' | 'on' | 'off';   // Free Recall home card (auto = after Level 1)
 }
 
 export interface AppState {
@@ -57,6 +58,7 @@ export interface AppState {
   streak: { count: number; lastDay: string };
   settings: Settings;
   conversations?: Record<string, { stars: 1 | 2 | 3; lastPlayed: string; plays: number }>;
+  recall?: import('./recallSession').RecallState;
 }
 
 export interface Exercise {

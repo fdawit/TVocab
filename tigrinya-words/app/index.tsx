@@ -3,12 +3,13 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { Screen, Button, ProgressBar, colors } from '../src/components/Screen';
 import { Geez } from '../src/components/Geez';
-import { WORDS, UNITS } from '../src/lib/data';
+import { RECALL, WORDS, UNITS } from '../src/lib/data';
 import { buildSession, currentUnit } from '../src/lib/session';
 import { dayString } from '../src/lib/scheduler';
 import { useAppState } from '../src/lib/useAppState';
 import { soundsSeen } from '../src/lib/storage';
 import { pendingHomeCards } from '../src/lib/parent';
+import { DEFAULT_RECALL_SETTINGS, recallEnabled, selectSession } from '../src/lib/recallSession';
 
 export default function Home() {
   const { state } = useAppState();
@@ -30,6 +31,10 @@ export default function Home() {
   if (!state || !today) return <Screen back={false}><View /></Screen>;
   const unit = currentUnit(UNITS, state);
   const pending = pendingHomeCards(state);
+  const recallOn = recallEnabled(state, UNITS);
+  const recallEmpty = recallOn
+    ? selectSession(RECALL, WORDS, state, state.recall?.settings ?? DEFAULT_RECALL_SETTINGS, dayString(), () => 0.5)
+    : null;
   const levels = ([1, 2, 3] as const).map(level => {
     const inLevel = WORDS.filter(w => w.active && w.level === level);
     const started = inLevel.filter(w => state.progress[w.id]).length;
@@ -66,6 +71,18 @@ export default function Home() {
         ))}
       </View>
 
+      {recallOn && recallEmpty && (
+        <View style={styles.card}>
+          <Text style={styles.recallTitle}>Free Recall</Text>
+          {recallEmpty.queue.length > 0
+            ? <>
+                <Text style={styles.recallLine}>Remember the word. Type it yourself.</Text>
+                <Button label="Start practice" onPress={() => router.push('/recall')} />
+              </>
+            : <Text style={styles.recallLine}>{recallEmpty.notice}</Text>}
+        </View>
+      )}
+
       <View style={styles.links}>
         <Button kind="secondary" label="Units" onPress={() => router.push('/units')} />
         <Button kind="secondary" label="Word Bank" onPress={() => router.push('/bank')} />
@@ -87,6 +104,8 @@ const styles = StyleSheet.create({
   counts: { fontSize: 17, color: colors.muted, textAlign: 'center' },
   levelText: { fontSize: 16, color: colors.text },
   links: { gap: 12 },
+  recallTitle: { fontSize: 22, fontWeight: '700', color: colors.text },
+  recallLine: { fontSize: 17, color: colors.muted },
   badge: { backgroundColor: '#FEF3C7', borderRadius: 14, minHeight: 56, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: colors.star },
   badgeText: { fontSize: 19, fontWeight: '700', color: '#92400E' },
   parent: { alignSelf: 'center', padding: 12 },

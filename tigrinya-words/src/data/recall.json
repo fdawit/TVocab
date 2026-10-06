@@ -1,0 +1,6709 @@
+[
+ {
+  "wordId": 13,
+  "prompt": "one (masculine)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "one",
+   "a",
+   "an"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 17,
+  "prompt": "person",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "person"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 19,
+  "prompt": "also, too",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "also",
+   "too"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 21,
+  "prompt": "time",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "time"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 22,
+  "prompt": "Eritrea",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "eritrea"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 24,
+  "prompt": "house of",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "house of",
+   "place"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 25,
+  "prompt": "year",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "year"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 29,
+  "prompt": "people",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "people"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 31,
+  "prompt": "what?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "what?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 51,
+  "prompt": "country",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "country",
+   "homeland"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 53,
+  "prompt": "education",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "education",
+   "lesson",
+   "school"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 56,
+  "prompt": "here",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "here",
+   "in this"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 67,
+  "prompt": "work",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "work",
+   "job"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 69,
+  "prompt": "two",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "two"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 71,
+  "prompt": "now",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "now"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 72,
+  "prompt": "thing",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "thing",
+   "matter"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 74,
+  "prompt": "much",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "much",
+   "many",
+   "a lot"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 75,
+  "prompt": "all",
+  "enToTi": true,
+  "romanAlternatives": [
+   "kulu"
+  ],
+  "englishAnswers": [
+   "all",
+   "everything"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 76,
+  "prompt": "city, town",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "city",
+   "town"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 84,
+  "prompt": "today",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "today"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 87,
+  "prompt": "place",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "place"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 88,
+  "prompt": "son",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "son",
+   "boy"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 90,
+  "prompt": "one (feminine)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "one"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 92,
+  "prompt": "day",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "day"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 93,
+  "prompt": "water",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "water"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 100,
+  "prompt": "book",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "book"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 109,
+  "prompt": "like this",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "like this",
+   "this way"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 118,
+  "prompt": "good",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "good",
+   "nice",
+   "beautiful"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 119,
+  "prompt": "Asmara (capital of Eritrea)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "asmara"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 133,
+  "prompt": "very",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "very"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 138,
+  "prompt": "house",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "house",
+   "home"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 141,
+  "prompt": "America (USA)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "america"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 143,
+  "prompt": "new (masculine)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "new"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 148,
+  "prompt": "village",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "village",
+   "hometown",
+   "homeland"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 155,
+  "prompt": "love",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "love"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 166,
+  "prompt": "big",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "big",
+   "great",
+   "older"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 167,
+  "prompt": "three",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "three"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 171,
+  "prompt": "month",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "month",
+   "moon"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 173,
+  "prompt": "how?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "how?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 179,
+  "prompt": "game",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "game",
+   "play"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 180,
+  "prompt": "hour",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hour",
+   "o'clock",
+   "clock",
+   "watch"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 182,
+  "prompt": "first",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "first"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 196,
+  "prompt": "why?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "why?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 206,
+  "prompt": "second",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "second"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 209,
+  "prompt": "truth",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "truth",
+   "true"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 213,
+  "prompt": "class",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "class",
+   "grade",
+   "room",
+   "part"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 214,
+  "prompt": "question",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "question"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 216,
+  "prompt": "Africa",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "africa"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 220,
+  "prompt": "picture",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "picture",
+   "photo",
+   "drawing"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 223,
+  "prompt": "problem",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "problem"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 233,
+  "prompt": "road",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "road",
+   "way",
+   "path",
+   "trip"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 237,
+  "prompt": "name",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "name"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 244,
+  "prompt": "foot",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "foot",
+   "leg"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 248,
+  "prompt": "yesterday",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "yesterday"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 258,
+  "prompt": "girl",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "girl",
+   "daughter"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 261,
+  "prompt": "food",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "food",
+   "meal"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 262,
+  "prompt": "answer",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "answer",
+   "reply"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 276,
+  "prompt": "who?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "who?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 302,
+  "prompt": "family",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "family"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 304,
+  "prompt": "long",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "long",
+   "tall"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 309,
+  "prompt": "four",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "four"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 312,
+  "prompt": "how much? how many?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "how much? how many?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 319,
+  "prompt": "hello",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hello",
+   "peace"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 328,
+  "prompt": "red",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "red"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 338,
+  "prompt": "there",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "there",
+   "in it"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 341,
+  "prompt": "teacher",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "teacher"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 351,
+  "prompt": "head",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "head"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 376,
+  "prompt": "heart",
+  "enToTi": true,
+  "romanAlternatives": [
+   "libi"
+  ],
+  "englishAnswers": [
+   "heart"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 387,
+  "prompt": "man",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "man",
+   "husband"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 390,
+  "prompt": "ball",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ball"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 398,
+  "prompt": "five",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "five"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 399,
+  "prompt": "father",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "father"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 403,
+  "prompt": "Tigrinya (the language)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "tigrinya"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 404,
+  "prompt": "Eritreans",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "eritreans"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 412,
+  "prompt": "week",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "week"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 422,
+  "prompt": "language",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "language"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 424,
+  "prompt": "bad",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "bad"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 434,
+  "prompt": "students",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "students"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 461,
+  "prompt": "evening",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "evening"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 476,
+  "prompt": "truly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "truly",
+   "really"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 480,
+  "prompt": "car",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "car"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 486,
+  "prompt": "eye",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "eye"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 490,
+  "prompt": "our country",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "our country"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 503,
+  "prompt": "tomorrow",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "tomorrow"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 507,
+  "prompt": "hand",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hand",
+   "arm"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 517,
+  "prompt": "yes",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "yes"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 520,
+  "prompt": "story",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "story",
+   "tale"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 528,
+  "prompt": "help",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "help"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 559,
+  "prompt": "third",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "third"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 561,
+  "prompt": "mother",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mother"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 568,
+  "prompt": "children",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "children",
+   "kids"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 585,
+  "prompt": "when?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "when?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 590,
+  "prompt": "near",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "near",
+   "close"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 594,
+  "prompt": "woman",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "woman",
+   "wife"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 616,
+  "prompt": "paper",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "paper"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 627,
+  "prompt": "short",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "short"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 642,
+  "prompt": "enough",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "enough"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 646,
+  "prompt": "parents",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "parents"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 649,
+  "prompt": "night",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "night"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 652,
+  "prompt": "my mother",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "my mother",
+   "mom"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 656,
+  "prompt": "fruit",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "fruit"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 672,
+  "prompt": "sun",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sun"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 677,
+  "prompt": "where?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "where?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 680,
+  "prompt": "my father",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "my father",
+   "dad"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 687,
+  "prompt": "sky",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sky",
+   "heaven"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 689,
+  "prompt": "ten",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ten"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 697,
+  "prompt": "Sunday",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sunday",
+   "sabbath"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 709,
+  "prompt": "good",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "good",
+   "nice"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 721,
+  "prompt": "my brothers",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "my brothers",
+   "my siblings"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 734,
+  "prompt": "animal",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "animal"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 758,
+  "prompt": "together",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "together"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 774,
+  "prompt": "small",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "small",
+   "little",
+   "young"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 776,
+  "prompt": "fine",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "fine",
+   "well",
+   "ok"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 777,
+  "prompt": "bicycle",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "bicycle"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 786,
+  "prompt": "child",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "child",
+   "kid"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 793,
+  "prompt": "family",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "family",
+   "household"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 796,
+  "prompt": "outside",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "outside",
+   "outdoors"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 799,
+  "prompt": "six",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "six"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 808,
+  "prompt": "easy",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "easy",
+   "light"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 870,
+  "prompt": "correct",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "correct",
+   "right",
+   "straight"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 896,
+  "prompt": "meaning",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "meaning",
+   "translation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 903,
+  "prompt": "baby",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "baby",
+   "infant"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 932,
+  "prompt": "color",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "color"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 934,
+  "prompt": "once",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "once",
+   "one time"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 935,
+  "prompt": "Eritrean (male)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "eritrean"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 936,
+  "prompt": "seven",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "seven"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 949,
+  "prompt": "books",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "books"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 954,
+  "prompt": "sleep",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sleep"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 971,
+  "prompt": "morning",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "morning"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 975,
+  "prompt": "mouth",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mouth"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 987,
+  "prompt": "in peace",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "in peace",
+   "safely"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 992,
+  "prompt": "music",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "music"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 32,
+  "prompt": "time",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "time",
+   "season",
+   "period"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 40,
+  "prompt": "only, just",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "only",
+   "just"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 43,
+  "prompt": "Mr.",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mr."
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 44,
+  "prompt": "face",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "face",
+   "page"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 47,
+  "prompt": "like that",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "like that",
+   "so"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 55,
+  "prompt": "other",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "other",
+   "another"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 58,
+  "prompt": "people",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "people",
+   "the public",
+   "nation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 63,
+  "prompt": "God",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "god"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 64,
+  "prompt": "world",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "world"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 77,
+  "prompt": "some",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "some",
+   "something"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 82,
+  "prompt": "area, surroundings",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "area",
+   "surroundings",
+   "around"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 85,
+  "prompt": "countries",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "countries"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 94,
+  "prompt": "new (feminine)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "new"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 101,
+  "prompt": "competition",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "competition",
+   "race",
+   "contest"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 102,
+  "prompt": "kind, type, sort",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "kind",
+   "type",
+   "sort"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 107,
+  "prompt": "others",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "others",
+   "other"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 108,
+  "prompt": "level",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "level",
+   "rank",
+   "place"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 111,
+  "prompt": "children of",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "children of",
+   "sons of"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 112,
+  "prompt": "center",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "center",
+   "middle"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 113,
+  "prompt": "January",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "january"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 115,
+  "prompt": "holiday",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "holiday",
+   "celebration"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 121,
+  "prompt": "sea",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sea"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 124,
+  "prompt": "years",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "years"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 131,
+  "prompt": "holy",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "holy",
+   "saint"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 132,
+  "prompt": "life",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "life"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 134,
+  "prompt": "whole",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "whole",
+   "full",
+   "complete"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 139,
+  "prompt": "many (plural)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "many"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 145,
+  "prompt": "team",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "team"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 149,
+  "prompt": "health",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "health"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 159,
+  "prompt": "end",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "end",
+   "last",
+   "final"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 170,
+  "prompt": "things",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "things"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 175,
+  "prompt": "how? in what way?",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "how? in what way?"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 176,
+  "prompt": "illness",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "illness",
+   "disease",
+   "pain"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 189,
+  "prompt": "land",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "land",
+   "ground",
+   "earth"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 191,
+  "prompt": "reason",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "reason",
+   "cause"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 193,
+  "prompt": "youth",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "youth",
+   "young people"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 195,
+  "prompt": "power",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "power",
+   "strength",
+   "force"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 198,
+  "prompt": "thousand",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "thousand"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 200,
+  "prompt": "more",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "more",
+   "extra"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 202,
+  "prompt": "then",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "then",
+   "at that time"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 207,
+  "prompt": "word",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "word",
+   "promise"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 211,
+  "prompt": "earth",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "earth",
+   "land",
+   "ground"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 226,
+  "prompt": "money",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "money"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 228,
+  "prompt": "independence",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "independence"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 229,
+  "prompt": "Ethiopia",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ethiopia"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 239,
+  "prompt": "date (day of the month)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "date"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 241,
+  "prompt": "million",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "million"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 245,
+  "prompt": "abroad",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "abroad",
+   "outside",
+   "expense"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 250,
+  "prompt": "south",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "south"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 255,
+  "prompt": "result",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "result",
+   "outcome",
+   "grade"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 257,
+  "prompt": "body",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "body",
+   "part"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 259,
+  "prompt": "young person",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "young person",
+   "youth"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 264,
+  "prompt": "history",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "history",
+   "story"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 268,
+  "prompt": "part",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "part",
+   "section"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 269,
+  "prompt": "idea",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "idea",
+   "thought",
+   "worry"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 271,
+  "prompt": "elders",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "elders",
+   "big ones"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 273,
+  "prompt": "road",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "road",
+   "way"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 277,
+  "prompt": "heavy",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "heavy",
+   "hard",
+   "difficult"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 278,
+  "prompt": "player",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "player"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 284,
+  "prompt": "hope",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hope"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 286,
+  "prompt": "victory",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "victory",
+   "success"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 287,
+  "prompt": "sport(s)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sport"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 292,
+  "prompt": "for example",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "for example"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 296,
+  "prompt": "age",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "age"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 297,
+  "prompt": "chance",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "chance",
+   "luck",
+   "opportunity"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 300,
+  "prompt": "hours",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hours"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 305,
+  "prompt": "price",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "price",
+   "value",
+   "cost"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 306,
+  "prompt": "point",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "point",
+   "dot"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 307,
+  "prompt": "number",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "number"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 313,
+  "prompt": "turn",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "turn",
+   "role",
+   "ordinary"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 315,
+  "prompt": "important",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "important"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 321,
+  "prompt": "players",
+  "enToTi": true,
+  "romanAlternatives": [
+   "tets'aweti"
+  ],
+  "englishAnswers": [
+   "players"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 323,
+  "prompt": "blood",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "blood"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 347,
+  "prompt": "special",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "special",
+   "different"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 354,
+  "prompt": "strong",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "strong",
+   "powerful"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 360,
+  "prompt": "voice",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "voice",
+   "sound",
+   "vote"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 361,
+  "prompt": "faith",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "faith",
+   "belief",
+   "trust"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 362,
+  "prompt": "effort",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "effort",
+   "hard work"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 368,
+  "prompt": "goal",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "goal",
+   "target"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 370,
+  "prompt": "first",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "first",
+   "at first",
+   "the first time"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 371,
+  "prompt": "exactly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "exactly",
+   "correct"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 372,
+  "prompt": "English",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "english",
+   "england"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 375,
+  "prompt": "king",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "king"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 377,
+  "prompt": "group",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "group",
+   "team"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 379,
+  "prompt": "Mrs.",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mrs.",
+   "lady"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 381,
+  "prompt": "too (much)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "too",
+   "very"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 382,
+  "prompt": "upward",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "upward",
+   "up"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 384,
+  "prompt": "police",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "police"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 391,
+  "prompt": "God",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "god",
+   "the lord"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 393,
+  "prompt": "still",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "still",
+   "yet",
+   "not yet"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 396,
+  "prompt": "video",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "video"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 407,
+  "prompt": "properly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "properly",
+   "correctly"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 411,
+  "prompt": "cup",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "cup",
+   "trophy"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 415,
+  "prompt": "writing",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "writing",
+   "text",
+   "article"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 417,
+  "prompt": "March",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "march"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 420,
+  "prompt": "goal",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "goal",
+   "aim",
+   "purpose"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 423,
+  "prompt": "feeling",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "feeling",
+   "emotion"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 437,
+  "prompt": "work",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "work",
+   "task"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 438,
+  "prompt": "days",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "days"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 440,
+  "prompt": "always",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "always"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 443,
+  "prompt": "words",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "words"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 445,
+  "prompt": "speech",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "speech",
+   "talk",
+   "words"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 451,
+  "prompt": "line",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "line",
+   "route"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 459,
+  "prompt": "coach",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "coach",
+   "trainer"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 462,
+  "prompt": "street",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "street",
+   "avenue"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 470,
+  "prompt": "completely",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "completely",
+   "entirely"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 475,
+  "prompt": "dollar",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "dollar"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 479,
+  "prompt": "place of",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "place of",
+   "shop",
+   "household of"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 487,
+  "prompt": "air",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "air",
+   "weather"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 488,
+  "prompt": "several",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "several",
+   "many"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 491,
+  "prompt": "December",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "december"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 493,
+  "prompt": "knowledge",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "knowledge"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 496,
+  "prompt": "field",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "field",
+   "open ground"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 497,
+  "prompt": "almost",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "almost",
+   "nearly"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 501,
+  "prompt": "perfect",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "perfect",
+   "complete",
+   "absolutely"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 509,
+  "prompt": "future",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "future",
+   "coming"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 513,
+  "prompt": "culture",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "culture",
+   "tradition"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 515,
+  "prompt": "problems",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "problems"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 519,
+  "prompt": "later",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "later",
+   "after a while",
+   "stayed"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 523,
+  "prompt": "June",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "june"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 524,
+  "prompt": "beginning",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "beginning",
+   "first"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 525,
+  "prompt": "September",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "september"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 530,
+  "prompt": "ground",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ground",
+   "floor"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 533,
+  "prompt": "message",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "message"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 537,
+  "prompt": "Keren (city in Eritrea)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "keren"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 538,
+  "prompt": "fish",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "fish"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 539,
+  "prompt": "market",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "market"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 546,
+  "prompt": "young children",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "young children",
+   "babies"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 547,
+  "prompt": "example",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "example"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 549,
+  "prompt": "half",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "half"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 554,
+  "prompt": "places",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "places"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 558,
+  "prompt": "games",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "games",
+   "matches"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 560,
+  "prompt": "ideas",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ideas",
+   "thoughts"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 569,
+  "prompt": "equal",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "equal",
+   "equally",
+   "same as"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 574,
+  "prompt": "similar",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "similar",
+   "the same"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 579,
+  "prompt": "July",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "july"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 589,
+  "prompt": "May",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "may"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 591,
+  "prompt": "honor",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "honor",
+   "respect",
+   "glory"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 592,
+  "prompt": "maybe",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "maybe",
+   "perhaps"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 597,
+  "prompt": "together",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "together",
+   "at once"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 598,
+  "prompt": "questions",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "questions"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 599,
+  "prompt": "months",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "months"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 600,
+  "prompt": "airplane",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "airplane"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 601,
+  "prompt": "hospital",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hospital"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 607,
+  "prompt": "November",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "november"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 612,
+  "prompt": "his head",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "his head",
+   "himself"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 614,
+  "prompt": "our children",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "our children"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 617,
+  "prompt": "light",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "light"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 619,
+  "prompt": "already",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "already"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 624,
+  "prompt": "October",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "october"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 628,
+  "prompt": "advice",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "advice"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 631,
+  "prompt": "excellent",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "excellent",
+   "outstanding"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 633,
+  "prompt": "easily",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "easily"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 644,
+  "prompt": "medicine",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "medicine",
+   "cure"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 657,
+  "prompt": "wedding",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "wedding"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 666,
+  "prompt": "film",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "film",
+   "movie"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 678,
+  "prompt": "art",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "art",
+   "wisdom",
+   "skill"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 681,
+  "prompt": "biggest",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "biggest",
+   "greatest",
+   "oldest"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 690,
+  "prompt": "normal",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "normal",
+   "usual"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 691,
+  "prompt": "wide",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "wide",
+   "broad",
+   "large"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 692,
+  "prompt": "together",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "together",
+   "they informed"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 706,
+  "prompt": "must",
+  "enToTi": true,
+  "romanAlternatives": [
+   "gidin"
+  ],
+  "englishAnswers": [
+   "must",
+   "necessarily"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 715,
+  "prompt": "doctor",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "doctor"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 724,
+  "prompt": "east",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "east"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 727,
+  "prompt": "character",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "character",
+   "nature",
+   "behavior"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 728,
+  "prompt": "journey",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "journey",
+   "trip"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 733,
+  "prompt": "August",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "august"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 736,
+  "prompt": "north",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "north"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 737,
+  "prompt": "April",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "april"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 750,
+  "prompt": "rest",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "rest",
+   "break",
+   "vacation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 752,
+  "prompt": "minute",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "minute",
+   "tiny"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 756,
+  "prompt": "permission",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "permission",
+   "license",
+   "will"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 759,
+  "prompt": "February",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "february"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 765,
+  "prompt": "mind",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mind",
+   "brain"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 766,
+  "prompt": "animals",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "animals"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 770,
+  "prompt": "sign",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sign",
+   "signal",
+   "mark"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 772,
+  "prompt": "free",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "free"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 783,
+  "prompt": "street",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "street",
+   "road"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 784,
+  "prompt": "big",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "big",
+   "great",
+   "grandmother"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 787,
+  "prompt": "classes",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "classes",
+   "rooms",
+   "parts"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 788,
+  "prompt": "title",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "title",
+   "topic",
+   "headline"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 790,
+  "prompt": "size",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "size",
+   "amount",
+   "measure"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 791,
+  "prompt": "kilo (kilogram, kilometer)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "kilo"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 792,
+  "prompt": "better",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "better"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 801,
+  "prompt": "opinion",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "opinion",
+   "view",
+   "comment"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 809,
+  "prompt": "prize",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "prize",
+   "award"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 818,
+  "prompt": "hymn",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "hymn",
+   "psalm",
+   "song"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 831,
+  "prompt": "cities",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "cities"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 837,
+  "prompt": "joy",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "joy",
+   "happiness",
+   "hagos"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 843,
+  "prompt": "better",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "better",
+   "best"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 850,
+  "prompt": "first",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "first",
+   "before",
+   "earlier"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 852,
+  "prompt": "bitter",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "bitter"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 853,
+  "prompt": "test",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "test",
+   "exam",
+   "attempt"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 867,
+  "prompt": "mistake",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mistake",
+   "wrong"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 876,
+  "prompt": "honorable",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "honorable",
+   "dear",
+   "precious"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 886,
+  "prompt": "building",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "building"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 905,
+  "prompt": "traditional",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "traditional",
+   "cultural"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 911,
+  "prompt": "strong",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "strong",
+   "intense",
+   "tough"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 914,
+  "prompt": "certainly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "certainly",
+   "for sure"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 920,
+  "prompt": "fire",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "fire"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 924,
+  "prompt": "word (from someone)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "word",
+   "contact"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 937,
+  "prompt": "shape",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "shape",
+   "form"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 940,
+  "prompt": "his hand",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "his hand"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 942,
+  "prompt": "chat",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "chat",
+   "conversation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 947,
+  "prompt": "meat",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "meat"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 952,
+  "prompt": "a few",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "a few",
+   "a little"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 953,
+  "prompt": "new (plural)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "new"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 963,
+  "prompt": "trees",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "trees",
+   "forests"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 969,
+  "prompt": "show",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "show",
+   "exhibition",
+   "display"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 977,
+  "prompt": "west",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "west"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 981,
+  "prompt": "memory",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "memory",
+   "memorial"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 982,
+  "prompt": "board",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "board",
+   "sign",
+   "blackboard"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 986,
+  "prompt": "grace",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "grace",
+   "gift",
+   "blessing"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 994,
+  "prompt": "Massawa (port city in Eritrea)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "massawa"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 996,
+  "prompt": "very (plural/respectful)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "very"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 997,
+  "prompt": "liberation",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "liberation",
+   "freedom"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 34,
+  "prompt": "zone, region",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "zone",
+   "region"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 89,
+  "prompt": "government",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "government"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 114,
+  "prompt": "information",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "information"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 122,
+  "prompt": "news",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "news"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 144,
+  "prompt": "service",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "service"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 146,
+  "prompt": "sub-",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sub-",
+   "minor",
+   "small"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 153,
+  "prompt": "national",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "national"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 157,
+  "prompt": "especially",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "especially"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 158,
+  "prompt": "matter",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "matter",
+   "issue",
+   "business"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 165,
+  "prompt": "plan",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "plan",
+   "program"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 184,
+  "prompt": "law",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "law",
+   "rule"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 187,
+  "prompt": "club",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "club"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 190,
+  "prompt": "members",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "members"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 199,
+  "prompt": "conditions",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "conditions",
+   "situation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 204,
+  "prompt": "match, game (sports)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "match",
+   "game"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 208,
+  "prompt": "high",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "high",
+   "prince"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 218,
+  "prompt": "saying",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "saying",
+   "to say"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 224,
+  "prompt": "amount",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "amount",
+   "size",
+   "measure"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 225,
+  "prompt": "president",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "president"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 230,
+  "prompt": "ministry (government department)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ministry"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 235,
+  "prompt": "main",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "main",
+   "chief",
+   "horn"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 240,
+  "prompt": "way",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "way",
+   "method",
+   "manner"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 256,
+  "prompt": "activities",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "activities"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 272,
+  "prompt": "various",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "various",
+   "different"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 274,
+  "prompt": "league (sports)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "league"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 285,
+  "prompt": "association",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "association",
+   "society",
+   "group"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 290,
+  "prompt": "plans",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "plans",
+   "programs"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 291,
+  "prompt": "Tigray (region in Ethiopia)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "tigray"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 293,
+  "prompt": "institution",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "institution",
+   "organization",
+   "company"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 294,
+  "prompt": "approximately",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "approximately",
+   "about"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 298,
+  "prompt": "various",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "various",
+   "different"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 303,
+  "prompt": "source",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "source",
+   "spring"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 308,
+  "prompt": "institutions",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "institutions",
+   "organizations"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 310,
+  "prompt": "system",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "system",
+   "order",
+   "ceremony"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 314,
+  "prompt": "statement",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "statement",
+   "description"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 316,
+  "prompt": "newspaper",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "newspaper"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 320,
+  "prompt": "writing",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "writing",
+   "office"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 322,
+  "prompt": "study",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "study",
+   "research"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 325,
+  "prompt": "Israel",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "israel"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 329,
+  "prompt": "property",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "property",
+   "belongings"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 333,
+  "prompt": "accident",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "accident",
+   "danger"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 337,
+  "prompt": "foundation",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "foundation",
+   "base"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 339,
+  "prompt": "occasion",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "occasion",
+   "chance"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 340,
+  "prompt": "content",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "content",
+   "contents"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 342,
+  "prompt": "contact",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "contact",
+   "meeting",
+   "relations"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 348,
+  "prompt": "Sudan",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sudan"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 358,
+  "prompt": "public",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "public",
+   "people's"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 364,
+  "prompt": "in addition",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "in addition",
+   "additionally"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 365,
+  "prompt": "ability",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "ability",
+   "capacity",
+   "means"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 366,
+  "prompt": "houses of (plural, in compounds)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "houses of"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 373,
+  "prompt": "stage",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "stage",
+   "platform",
+   "forum"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 374,
+  "prompt": "head",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "head",
+   "person in charge"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 378,
+  "prompt": "wife (in በዓልቲ ቤት)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "wife",
+   "the one of"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 383,
+  "prompt": "daily",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "daily"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 388,
+  "prompt": "union",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "union",
+   "unity"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 394,
+  "prompt": "social",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "social"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 400,
+  "prompt": "(to/for) one",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "one"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 401,
+  "prompt": "parts",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "parts",
+   "bodies",
+   "organizations"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 406,
+  "prompt": "agriculture",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "agriculture",
+   "farming"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 414,
+  "prompt": "residents",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "residents",
+   "inhabitants"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 416,
+  "prompt": "China",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "china"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 418,
+  "prompt": "spirit",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "spirit"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 429,
+  "prompt": "change",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "change"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 433,
+  "prompt": "citizens",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "citizens"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 439,
+  "prompt": "minister (government)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "minister"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 441,
+  "prompt": "partner",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "partner",
+   "spouse",
+   "companion"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 449,
+  "prompt": "seed",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "seed",
+   "offspring",
+   "descendants"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 455,
+  "prompt": "each",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "each",
+   "every"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 457,
+  "prompt": "middle",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "middle",
+   "central",
+   "average"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 460,
+  "prompt": "in large numbers",
+  "enToTi": true,
+  "romanAlternatives": [
+   "bibizhi"
+  ],
+  "englishAnswers": [
+   "in large numbers"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 463,
+  "prompt": "in general",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "in general",
+   "generally"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 464,
+  "prompt": "estimate",
+  "enToTi": true,
+  "romanAlternatives": [
+   "gimit"
+  ],
+  "englishAnswers": [
+   "estimate",
+   "consideration"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 465,
+  "prompt": "Arab",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "arab",
+   "arabic"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 466,
+  "prompt": "Europe",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "europe"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 467,
+  "prompt": "women",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "women",
+   "female"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 473,
+  "prompt": "soul",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "soul",
+   "life",
+   "self"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 484,
+  "prompt": "decision",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "decision"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 485,
+  "prompt": "final",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "final",
+   "event",
+   "end"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 498,
+  "prompt": "additional",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "additional",
+   "extra"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 502,
+  "prompt": "united",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "united"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 504,
+  "prompt": "marriage",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "marriage",
+   "household"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 506,
+  "prompt": "report",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "report",
+   "account"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 508,
+  "prompt": "matters",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "matters",
+   "affairs"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 511,
+  "prompt": "medical care",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "medical care",
+   "medicine"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 514,
+  "prompt": "branch",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "branch"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 518,
+  "prompt": "profession",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "profession",
+   "skill",
+   "craft"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 529,
+  "prompt": "doing",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "doing",
+   "to do"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 532,
+  "prompt": "deed",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "deed",
+   "action",
+   "tax"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 536,
+  "prompt": "member",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "member"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 542,
+  "prompt": "percent",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "percent"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 543,
+  "prompt": "competitions",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "competitions",
+   "races"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 545,
+  "prompt": "struggle",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "struggle"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 550,
+  "prompt": "society",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "society",
+   "community"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 555,
+  "prompt": "movement",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "movement",
+   "exercise",
+   "activity"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 557,
+  "prompt": "zones",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "zones",
+   "regions"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 562,
+  "prompt": "training",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "training"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 564,
+  "prompt": "responsibility",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "responsibility"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 566,
+  "prompt": "era",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "era",
+   "age",
+   "period"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 571,
+  "prompt": "teams",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "teams"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 572,
+  "prompt": "meeting",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "meeting"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 578,
+  "prompt": "legal",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "legal",
+   "lawful"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 580,
+  "prompt": "Russia",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "russia"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 581,
+  "prompt": "proper",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "proper",
+   "due",
+   "appropriate"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 582,
+  "prompt": "in advance",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "in advance",
+   "earlier"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 583,
+  "prompt": "right (as in human rights)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "right"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 584,
+  "prompt": "amount",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "amount",
+   "number",
+   "quantity"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 587,
+  "prompt": "areas",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "areas",
+   "surroundings"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 596,
+  "prompt": "women",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "women"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 602,
+  "prompt": "main",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "main",
+   "chief"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 604,
+  "prompt": "goals",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "goals",
+   "targets"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 610,
+  "prompt": "in person",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "in person"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 618,
+  "prompt": "own (in ገዛእ ርእሱ = his own self)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "own"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 621,
+  "prompt": "relationship",
+  "enToTi": true,
+  "romanAlternatives": [
+   "zimidna"
+  ],
+  "englishAnswers": [
+   "relationship",
+   "relation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 622,
+  "prompt": "highest",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "highest",
+   "top"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 625,
+  "prompt": "clubs",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "clubs"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 626,
+  "prompt": "and the like",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "and the like",
+   "such as"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 629,
+  "prompt": "agent",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "agent",
+   "representative"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 634,
+  "prompt": "leaders",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "leaders"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 636,
+  "prompt": "so far",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "so far",
+   "until now"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 650,
+  "prompt": "action",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "action",
+   "deed",
+   "practice"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 651,
+  "prompt": "step",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "step",
+   "measure"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 653,
+  "prompt": "trade",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "trade",
+   "business"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 658,
+  "prompt": "illnesses",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "illnesses",
+   "holy week"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 660,
+  "prompt": "reports",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "reports"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 663,
+  "prompt": "national (feminine)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "national"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 665,
+  "prompt": "expectation",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "expectation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 669,
+  "prompt": "side",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "side",
+   "relative",
+   "party"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 671,
+  "prompt": "matches (sports)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "matches"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 673,
+  "prompt": "contribution",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "contribution"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 674,
+  "prompt": "choice",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "choice",
+   "election"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 676,
+  "prompt": "and the like (plural)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "and the like"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 683,
+  "prompt": "continuous",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "continuous",
+   "ongoing",
+   "next"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 685,
+  "prompt": "Germany",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "germany",
+   "german"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 688,
+  "prompt": "workers",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "workers"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 694,
+  "prompt": "northern",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "northern"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 696,
+  "prompt": "year of (in dates)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "year of"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 699,
+  "prompt": "airplanes",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "airplanes"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 702,
+  "prompt": "writings",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "writings",
+   "articles"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 707,
+  "prompt": "development",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "development"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 708,
+  "prompt": "international",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "international",
+   "continental"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 711,
+  "prompt": "campaign",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "campaign",
+   "drive",
+   "investment"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 716,
+  "prompt": "Eritrea and",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "eritrea and",
+   "and eritrea"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 720,
+  "prompt": "upper",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "upper",
+   "high",
+   "supreme"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 722,
+  "prompt": "freedom fighter",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "freedom fighter"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 730,
+  "prompt": "cause (often of a problem)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "cause"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 732,
+  "prompt": "dear",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "dear",
+   "beloved"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 735,
+  "prompt": "field",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "field",
+   "area",
+   "sector"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 740,
+  "prompt": "grief",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "grief",
+   "mourning"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 745,
+  "prompt": "being",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "being",
+   "to be"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 747,
+  "prompt": "role model",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "role model",
+   "example",
+   "araya"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 753,
+  "prompt": "agreement",
+  "enToTi": true,
+  "romanAlternatives": [
+   "simimi'"
+  ],
+  "englishAnswers": [
+   "agreement"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 754,
+  "prompt": "sacrifice",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sacrifice"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 757,
+  "prompt": "order",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "order",
+   "command",
+   "commandment"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 761,
+  "prompt": "influence",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "influence",
+   "impact"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 763,
+  "prompt": "whole",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "whole",
+   "entire"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 767,
+  "prompt": "leader",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "leader",
+   "guide"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 768,
+  "prompt": "Christian",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "christian"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 778,
+  "prompt": "pressure",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "pressure",
+   "stress"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 779,
+  "prompt": "and water",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "and water",
+   "water and"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 780,
+  "prompt": "development",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "development",
+   "progress"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 798,
+  "prompt": "energy",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "energy",
+   "power"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 803,
+  "prompt": "refugees",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "refugees",
+   "migrants"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 805,
+  "prompt": "possibility",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "possibility"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 807,
+  "prompt": "upper",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "upper",
+   "senior"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 813,
+  "prompt": "Europe",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "europe"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 814,
+  "prompt": "his face",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "his face",
+   "its page"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 815,
+  "prompt": "virus",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "virus"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 820,
+  "prompt": "wealth",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "wealth",
+   "riches"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 821,
+  "prompt": "France",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "france"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 823,
+  "prompt": "human",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "human",
+   "humanitarian"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 824,
+  "prompt": "most of it",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "most of it",
+   "mostly"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 825,
+  "prompt": "relatives",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "relatives",
+   "fellow people"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 826,
+  "prompt": "champion",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "champion"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 828,
+  "prompt": "every",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "every",
+   "whatever"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 830,
+  "prompt": "internal",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "internal",
+   "inner"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 832,
+  "prompt": "similarly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "similarly",
+   "likewise"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 834,
+  "prompt": "to God",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "to god",
+   "for god"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 836,
+  "prompt": "our world",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "our world"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 839,
+  "prompt": "his house",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "his house",
+   "his home"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 842,
+  "prompt": "Anseba (region of Eritrea)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "anseba"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 846,
+  "prompt": "following",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "following",
+   "next"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 847,
+  "prompt": "freedom fighters",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "freedom fighters"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 855,
+  "prompt": "company",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "company"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 857,
+  "prompt": "the first ones",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "the first ones"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 859,
+  "prompt": "annual",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "annual",
+   "yearly"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 860,
+  "prompt": "coronavirus",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "coronavirus"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 861,
+  "prompt": "seat",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "seat",
+   "chair"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 864,
+  "prompt": "on his part",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "on his part",
+   "for his part"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 871,
+  "prompt": "network",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "network",
+   "web"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 873,
+  "prompt": "meter",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "meter"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 879,
+  "prompt": "general",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "general"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 882,
+  "prompt": "Britain",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "britain"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 883,
+  "prompt": "Christians",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "christians"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 893,
+  "prompt": "their heads",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "their heads",
+   "themselves"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 898,
+  "prompt": "competitors",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "competitors",
+   "racers"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 900,
+  "prompt": "repeatedly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "repeatedly",
+   "again and again"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 902,
+  "prompt": "administrator",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "administrator",
+   "governor"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 904,
+  "prompt": "in another (way)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "in another",
+   "otherwise"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 906,
+  "prompt": "Egypt",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "egypt"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 908,
+  "prompt": "basic",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "basic",
+   "fundamental"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 909,
+  "prompt": "male",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "male",
+   "men"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 917,
+  "prompt": "directly",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "directly",
+   "live"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 922,
+  "prompt": "line",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "line",
+   "party",
+   "rally"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 923,
+  "prompt": "knowledge",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "knowledge",
+   "awareness"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 927,
+  "prompt": "several",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "several",
+   "numerous"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 930,
+  "prompt": "spiritual",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "spiritual"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 938,
+  "prompt": "rumor",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "rumor",
+   "news",
+   "word"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 939,
+  "prompt": "sources",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "sources"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 945,
+  "prompt": "Mendefera (city in Eritrea)",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "mendefera"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 948,
+  "prompt": "second",
+  "enToTi": false,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "second",
+   "again",
+   "re-"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 950,
+  "prompt": "about",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "about",
+   "around"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 960,
+  "prompt": "only",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "only",
+   "bare",
+   "empty"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 967,
+  "prompt": "for a long (time)",
+  "enToTi": true,
+  "romanAlternatives": [
+   "ninewih"
+  ],
+  "englishAnswers": [
+   "for a long"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 968,
+  "prompt": "vaccine",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "vaccine",
+   "vaccination"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 974,
+  "prompt": "natural",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "natural"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 976,
+  "prompt": "farmers",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "farmers"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 984,
+  "prompt": "benefit",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "benefit",
+   "profit"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 988,
+  "prompt": "deserved",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "deserved",
+   "proper",
+   "due"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 989,
+  "prompt": "examination",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "examination",
+   "checkup",
+   "investigation"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 999,
+  "prompt": "Italy",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "italy"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ },
+ {
+  "wordId": 1000,
+  "prompt": "task",
+  "enToTi": true,
+  "romanAlternatives": [],
+  "englishAnswers": [
+   "task",
+   "duty",
+   "mission"
+  ],
+  "status": "draft",
+  "ruleVersion": 1
+ }
+]

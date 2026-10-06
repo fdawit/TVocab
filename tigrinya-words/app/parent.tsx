@@ -3,9 +3,9 @@ import { Alert, Platform, Pressable, StyleSheet, Text, TextInput, View } from 'r
 import { router } from 'expo-router';
 import { Screen, Button, ProgressBar, colors } from '../src/components/Screen';
 import { Geez } from '../src/components/Geez';
-import { CONVERSATIONS, WORDS, UNITS } from '../src/lib/data';
+import { CONVERSATIONS, WORDS, UNITS, WORD_BY_ID } from '../src/lib/data';
 import { levelStats, needsPractice, wordsThisWeek } from '../src/lib/parent';
-import { dayString } from '../src/lib/scheduler';
+import { addDays, dayString } from '../src/lib/scheduler';
 import type { Word } from '../src/lib/types';
 import { useAppState } from '../src/lib/useAppState';
 import { resetState } from '../src/lib/storage';
@@ -54,6 +54,19 @@ export default function Parent() {
   }
 
   const week = wordsThisWeek(WORDS, state, dayString());
+  // Free Recall report from the per-word, per-direction records.
+  const records = Object.entries(state.recall?.records ?? {});
+  const sumOf = (f: (r: (typeof records)[number][1]) => number) => records.reduce((n, [, r]) => n + f(r), 0);
+  const enTi = records.filter(([k]) => k.endsWith('|en-ti')).map(([, r]) => r);
+  const tiEn = records.filter(([k]) => k.endsWith('|ti-en')).map(([, r]) => r);
+  const enTiRight = { fidel: enTi.reduce((n, r) => n + (r.firstCorrect.fidel ?? 0), 0),
+                      roman: enTi.reduce((n, r) => n + (r.firstCorrect.roman ?? 0), 0) };
+  const enTiWrong = enTi.reduce((n, r) => n + r.firstWrong, 0);
+  const tiEnRight = tiEn.reduce((n, r) => n + (r.firstCorrect.english ?? 0), 0);
+  const tiEnWrong = tiEn.reduce((n, r) => n + r.firstWrong, 0);
+  const weekAgo = addDays(dayString(), -6);
+  const missedThisWeek = [...new Set(records.filter(([, r]) => (r.lastMissed ?? '') >= weekAgo)
+    .map(([k]) => Number(k.split('|')[0])))].map(id => WORD_BY_ID.get(id)!).filter(Boolean);
   const practice = needsPractice(WORDS, state);
 
   return (
@@ -96,6 +109,23 @@ export default function Parent() {
       </View>
 
       <View style={styles.card}>
+        <Text style={styles.heading}>Free Recall</Text>
+        {records.length === 0 ? <Text style={styles.hint}>No typed practice yet.</Text> : (
+          <>
+            <Stat label="English → Tigrinya, first try"
+                  value={`${enTiRight.fidel + enTiRight.roman} of ${enTiRight.fidel + enTiRight.roman + enTiWrong}`} />
+            <Text style={styles.hint}>Right in Ge'ez: {enTiRight.fidel} · right in romanization: {enTiRight.roman}</Text>
+            <Stat label="Tigrinya → English, first try" value={`${tiEnRight} of ${tiEnRight + tiEnWrong}`} />
+            <Stat label="Missing popping mark notes" value={String(sumOf(r => r.noteMissingPop))} />
+            <Stat label="Family spelling notes" value={String(sumOf(r => r.noteFamilySpelling))} />
+            <Text style={styles.label}>Missed in the past week</Text>
+            {missedThisWeek.length === 0 ? <Text style={styles.hint}>None.</Text>
+              : missedThisWeek.map(w => <WordRow key={w.id} w={w} />)}
+          </>
+        )}
+      </View>
+
+      <View style={styles.card}>
         <Text style={styles.heading}>Settings</Text>
         <Text style={styles.label}>New words per day</Text>
         <Segmented options={[3, 5, 8].map(n => ({ value: n as Settings['newPerDay'], label: String(n) }))}
@@ -103,6 +133,11 @@ export default function Parent() {
         <Text style={styles.label}>Is the learner a boy or a girl?</Text>
         <Segmented options={[{ value: 'boy' as const, label: 'Boy' }, { value: 'girl' as const, label: 'Girl' }]}
                    value={state.settings.learner ?? 'boy'} onChange={v => set({ learner: v })} />
+        <Text style={styles.label}>Free Recall</Text>
+        <Segmented options={[{ value: 'auto' as const, label: 'Auto' }, { value: 'on' as const, label: 'On' },
+                             { value: 'off' as const, label: 'Off' }]}
+                   value={state.settings.freeRecall ?? 'auto'} onChange={v => set({ freeRecall: v })} />
+        <Text style={styles.hint}>Auto shows Free Recall once every Level 1 unit is finished.</Text>
         <Text style={styles.label}>Romanization</Text>
         <Segmented options={ROMANIZATION} value={state.settings.romanization} onChange={v => set({ romanization: v })} />
         <Text style={styles.hint}>Changes apply from the next session.</Text>
