@@ -87,7 +87,12 @@ export function requeue(steps: Exercise[], index: number, w: Word, pool: Word[],
 export function finishSession(state: AppState, units: Unit[], day: string): { state: AppState; finished: number[] } {
   const finished = units
     .filter(u => !state.completedUnits.includes(u.id))
-    .filter(u => u.wordIds.every(id => (state.progress[id]?.box ?? 0) >= 1))
+    // A wrong answer also leaves a word in box 1, so count correct answers instead:
+    // seen counts every graded answer and wrong the missed ones.
+    .filter(u => u.wordIds.every(id => {
+      const p = state.progress[id];
+      return !!p && p.seen - p.wrong > 0;   // answered correctly at least once
+    }))
     .map(u => u.id);
   const yesterday = addDays(day, -1);
   const s = state.streak;
