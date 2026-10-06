@@ -75,8 +75,10 @@ const styles = StyleSheet.create({
     minHeight: 52, borderRadius: 14, borderWidth: 1, borderColor: colors.line, backgroundColor: colors.card,
     paddingHorizontal: 14, fontSize: 18, color: colors.text,
   },
-  chipsRow: { flexGrow: 0 },
-  chips: { gap: 8 },
+  // Horizontal ScrollViews shrink by default; with 1,000 words below they were squeezed and clipped.
+  // Full-bleed rows (past the 16pt page padding) make it clear they scroll sideways.
+  chipsRow: { flexGrow: 0, flexShrink: 0, marginHorizontal: -16 },
+  chips: { gap: 8, paddingHorizontal: 16 },
   chip: { paddingHorizontal: 14, minHeight: 40, justifyContent: 'center', borderRadius: 20, borderWidth: 1, borderColor: colors.line, backgroundColor: colors.card },
   chipOn: { backgroundColor: colors.primary, borderColor: colors.primary },
   chipText: { fontSize: 15, color: colors.text },
