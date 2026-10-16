@@ -47,4 +47,4 @@ Use **Settings → Download backup** now and then; **Restore** loads it on anoth
 - `src/lib/store.ts` — storage and actions
 - `src/lib/insights.ts` — spot health, change log, heatmap weights, early-season favorites
 - `src/screens/` — one file per screen; `src/components/` — map, cards, form bits
-- Map: Leaflet + react-leaflet with CARTO Voyager tiles, `leaflet.heat` for the heatmap
+- Map: Leaflet + react-leaflet with OpenStreetMap tiles (no API key), `leaflet.heat` for the heatmap

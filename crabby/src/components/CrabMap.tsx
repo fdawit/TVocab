@@ -1,42 +1,18 @@
 import '../lib/leaflet-heat';
 import 'leaflet.heat';
 import L from 'leaflet';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from 'react-leaflet';
 import { fmtShort } from '../lib/dates';
 import { getPosition } from '../lib/geo';
 import type { SpotStatus } from '../lib/insights';
 import type { Pull, Spot } from '../lib/types';
 
-const OSM = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
-const TILES = [
-  { url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', attribution: `${OSM} &copy; <a href="https://carto.com/attributions">CARTO</a>` },
-  // Plain OpenStreetMap, used if CARTO's tiles won't load (blocked network, ad blocker, outage).
-  { url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png', attribution: OSM },
-];
+const TILE_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+const TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 
-/** CARTO tiles, switching to OpenStreetMap if CARTO keeps failing before any tile loads. */
 function BaseTiles() {
-  const [i, setI] = useState(0);
-  const errors = useRef(0);
-  const loaded = useRef(false);
-  const t = TILES[i];
-  return (
-    <TileLayer
-      key={t.url}
-      url={t.url}
-      attribution={t.attribution}
-      eventHandlers={{
-        tileload: () => void (loaded.current = true),
-        tileerror: () => {
-          if (!loaded.current && ++errors.current >= 4 && i < TILES.length - 1) {
-            errors.current = 0;
-            setI(i + 1);
-          }
-        },
-      }}
-    />
-  );
+  return <TileLayer url={TILE_URL} attribution={TILE_ATTRIBUTION} maxZoom={19} />;
 }
 
 /** Somewhere sensible to look at before any spots exist (Puget Sound). */
