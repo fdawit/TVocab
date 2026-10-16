@@ -41,15 +41,14 @@ export function MapScreen({ params }: { params: URLSearchParams }) {
             ⭐ Early-season faves
           </button>
         </div>
-        {data.spots.length === 0 ? (
-          <div className="map map-empty">
+        <CrabMap items={items} heat={heat ? heatData : undefined} selectedId={selectedId} onSelect={setSelectedId} />
+        {data.spots.length === 0 && (
+          <div className="map-empty card">
             <p>No spots yet!</p>
             <a className="btn btn-primary" href="#/spot/new">
               📍 Mark a spot
             </a>
           </div>
-        ) : (
-          <CrabMap items={items} heat={heat ? heatData : undefined} selectedId={selectedId} onSelect={setSelectedId} />
         )}
         {heat && (
           <div className="heat-legend">

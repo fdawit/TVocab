@@ -1158,10 +1158,15 @@ textarea.input {
 }
 
 .map-empty {
+  position: absolute;
+  z-index: 500;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
   display: grid;
-  place-content: center;
   justify-items: center;
-  gap: 12px;
+  gap: 10px;
+  white-space: nowrap;
 }
 
 .map-toolbar {
