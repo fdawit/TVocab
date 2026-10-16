@@ -4,12 +4,16 @@ import L from 'leaflet';
 import { useEffect, useMemo } from 'react';
 import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from 'react-leaflet';
 import { fmtShort } from '../lib/dates';
+import { getPosition } from '../lib/geo';
 import type { SpotStatus } from '../lib/insights';
 import type { Pull, Spot } from '../lib/types';
 
-export const TILE_URL = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
-export const TILE_ATTRIBUTION =
-  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>';
+const TILE_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+const TILE_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+
+function BaseTiles() {
+  return <TileLayer url={TILE_URL} attribution={TILE_ATTRIBUTION} maxZoom={19} />;
+}
 
 /** Somewhere sensible to look at before any spots exist (Puget Sound). */
 export const DEFAULT_CENTER: [number, number] = [47.66, -122.45];
@@ -43,13 +47,14 @@ function HeatLayer({ points }: { points: [number, number, number][] }) {
   return null;
 }
 
-/** Fits the map to the spots once, then follows the selected spot. */
+/** Fits the map to the spots once (or to her GPS position if there are none), then follows the selected spot. */
 function Camera({ spots, selected }: { spots: Spot[]; selected?: Spot }) {
   const map = useMap();
   const key = spots.map((s) => s.id).join();
   useEffect(() => {
     if (spots.length === 1) map.setView([spots[0].lat, spots[0].lng], 14);
     else if (spots.length > 1) map.fitBounds(L.latLngBounds(spots.map((s) => [s.lat, s.lng])), { padding: [50, 50], maxZoom: 15 });
+    else getPosition().then((p) => map.setView([p.lat, p.lng], 13), () => {});
   }, [map, key]);
   useEffect(() => {
     if (selected) map.flyTo([selected.lat, selected.lng], Math.max(map.getZoom(), 14), { duration: 0.6 });
@@ -74,7 +79,7 @@ export function CrabMap({
   const selected = spots.find((s) => s.id === selectedId);
   return (
     <MapContainer className="map" center={DEFAULT_CENTER} zoom={12} scrollWheelZoom>
-      <TileLayer url={TILE_URL} attribution={TILE_ATTRIBUTION} />
+      <BaseTiles />
       {heat && <HeatLayer points={heat} />}
       <Camera spots={spots} selected={selected} />
       {items.map(({ spot, status, last, label }) => (
@@ -127,7 +132,7 @@ export function PickMap({ lat, lng, others, onPick }: { lat: number | null; lng:
   const newIcon = useMemo(() => L.divIcon({ className: 'pin-wrap', html: '<div class="pin pin-new"><span>★</span></div>', iconSize: [40, 40], iconAnchor: [20, 20] }), []);
   return (
     <MapContainer className="map map-small" center={center} zoom={has ? 14 : 12}>
-      <TileLayer url={TILE_URL} attribution={TILE_ATTRIBUTION} />
+      <BaseTiles />
       <ClickToPlace onPick={onPick} />
       {others.map((s) => (
         <Marker key={s.id} position={[s.lat, s.lng]} icon={pinIcon(s, 'resting', '', false)} interactive={false} opacity={0.55} />
